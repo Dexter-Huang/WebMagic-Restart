@@ -1,0 +1,5221 @@
+{
+"stid": "055447599008331380242953088722349532348_anull",
+"data": {
+"count": 20,
+"totalcount": 1111,
+"showTotalPriceButton": true,
+"searchresult": [
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/ea4cf45ba6d62202756fd708754a705a1530825.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003021,
+"description": "列表页高星酒店标签",
+"url": "http://p0.meituan.net/hotelnoah/b33a030ef2664ad2aa21740b99569a8e.png"
+},
+{
+"boothId": 9003029,
+"description": "高星房型升级",
+"url": "http://p0.meituan.net/hotelnoah/35d55c720b8b44b6a1d9609a6339762b.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区福永街道桥头社区永福路美希美工业园8栋2号",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 835732208,
+"poiIdStr": "835732208",
+"realPoiId": 835732208,
+"realPoiIdStr": "835732208",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29503,
+"areaName": "宝安机场/福永",
+"cates": "20,20606,400023,20849,20706,20963,400434",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "兰兹酒店(深圳机场福永地铁站店)",
+"hasPackage": false,
+"lat": 22.674197,
+"lng": 113.802366,
+"markNumbers": 955,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 178,
+"notRoundedLowestPrice": 17800,
+"dayRoomSpan": 1,
+"hotelStar": "高档型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 9704,
+"posdescr": "近同泰时代广场 · 宝安机场/福永",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 835732208,
+"shopIdStr": "835732208",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "高档型",
+"poiLastOrderTime": "17分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 275,
+"notRoundedOriginalPrice": 27500,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠97",
+"priceExtModel": {
+"text": "优惠97",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "955条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近湖景",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "机器人服务",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "会议室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "17分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": true,
+"albumCount": 283,
+"poiExtendsInfosDesc": [
+"2020年开业"
+],
+"commentCount": 955,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "无接触送餐",
+"iconUrl": "https://p0.meituan.net/travelcube/fed306e6049580f9528d88a62e8d8f5b1577.png",
+"attrId": 101625
+},
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "无接触送物",
+"iconUrl": "https://p1.meituan.net/travelcube/7d05e3ca43f850559efb56cfb9ce69dc3022.png",
+"attrId": 101626
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "会议厅收费",
+"iconUrl": "https://p1.meituan.net/travelcube/c631e90765fe0fa4591f14b4e061c3b01176.png",
+"attrId": 102043
+},
+{
+"attrDesc": "客房WiFi免费",
+"iconUrl": "https://p1.meituan.net/travelcube/0195598410d503f125c8777df84b4d6c2053.png",
+"attrId": 102051
+},
+{
+"attrDesc": "商务服务",
+"iconUrl": "https://p0.meituan.net/travelcube/31dc2a267366670d011f416fba6f36eb874.png",
+"attrId": 102044
+},
+{
+"attrDesc": "快速入住退房",
+"iconUrl": "https://p0.meituan.net/travelcube/1cbceb68337af34ea4493a820a6e71fa1821.png",
+"attrId": 101174
+},
+{
+"attrDesc": "24小时前台",
+"iconUrl": "https://p1.meituan.net/travelcube/e6ffc7739829356f3b6711a254c958d5901.png",
+"attrId": 101041
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E5%85%B0%E5%85%B9%E9%85%92%E5%BA%97%EF%BC%88%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BA%E7%A6%8F%E6%B0%B8%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%EF%BC%89&poiLat=22.674197&poiLng=113.802366&poiId=1287681640935485470&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车8公里,约15分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距福永地铁站-A口步行450米,约6分钟"
+}
+],
+"addrWithoutAdministrativeArea": "福永街道桥头社区永福路美希美工业园8栋2号"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"videoUrl": "http://s3plus.meituan.net/v1/mss_66f77a3644464b589f2f061a13c82013/hoteltranscoding/narrowband-hotel-c763f144-52a9-11ec-a803-0a580a175647-024913",
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+7
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E5%85%B0%E5%85%B9%E9%85%92%E5%BA%97%28%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BA%E7%A6%8F%E6%B0%B8%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%29&dlat=22.674197&dlon=113.802366&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": true,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.043728_0.074337_835732208_0.700000"
+},
+"addPrice": false,
+"highStar": true
+},
+{
+"historySaleCount": "1000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/165257abe936cec0f9b64f081fb3a2e25231144.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "2022中秋",
+"url": "http://p0.meituan.net/hotelnoah/2d20e7a4e48647fd86bede32a60283db.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区金海路西乡商会大厦1楼",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 1510437883,
+"poiIdStr": "1510437883",
+"realPoiId": 1510437883,
+"realPoiIdStr": "1510437883",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 1016017,
+"areaName": "宝安体育中心商圈",
+"cates": "20,20606,400020,20853",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "云舒酒店(深圳碧海湾地铁站店)",
+"hasPackage": false,
+"lat": 22.570295,
+"lng": 113.851309,
+"markNumbers": 355,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 326,
+"notRoundedLowestPrice": 32600,
+"dayRoomSpan": 1,
+"hotelStar": "舒适型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 3175,
+"posdescr": "近恒生医院 · 宝安体育中心商圈",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 1510437883,
+"shopIdStr": "1510437883",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "1000+消费",
+"poiRecommendTag": "舒适型",
+"poiLastOrderTime": "16分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 419,
+"notRoundedOriginalPrice": 41900,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠93",
+"priceExtModel": {
+"text": "优惠93",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "355条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "有棋牌房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "有海景房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "休闲度假",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "16分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 255,
+"poiExtendsInfosDesc": [
+"2021年开业"
+],
+"commentCount": 355,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "客房WiFi免费",
+"iconUrl": "https://p1.meituan.net/travelcube/0195598410d503f125c8777df84b4d6c2053.png",
+"attrId": 102051
+},
+{
+"attrDesc": "行李寄存免费",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "信用卡结算服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fa35bedaf4fc4a1586661b213cd3c565649.png",
+"attrId": 101007
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E4%BA%91%E8%88%92%E9%85%92%E5%BA%97%EF%BC%88%E6%B7%B1%E5%9C%B3%E7%A2%A7%E6%B5%B7%E6%B9%BE%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%EF%BC%89&poiLat=22.570295&poiLng=113.851309&poiId=1336885170216632382&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车25.9公里,约34分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距碧海湾地铁站-A口步行750米,约9分钟"
+}
+],
+"addrWithoutAdministrativeArea": "金海路西乡商会大厦1楼"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"videoUrl": "http://s3plus.meituan.net/v1/mss_66f77a3644464b589f2f061a13c82013/hoteltranscoding/narrowband-hotel-130a994c-5271-11ec-a803-0a580a175647-006531",
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+5
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E4%BA%91%E8%88%92%E9%85%92%E5%BA%97%28%E6%B7%B1%E5%9C%B3%E7%A2%A7%E6%B5%B7%E6%B9%BE%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%29&dlat=22.570295&dlon=113.851309&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.018898_0.052914_1510437883_1.800000"
+},
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p1.meituan.net/w.h/tdchoteldark/d61cb47d5b75c43f1174f99958c54a97146747.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 9003029,
+"description": "2022中秋",
+"url": "http://p0.meituan.net/hotelnoah/2d20e7a4e48647fd86bede32a60283db.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区福永街道广深公路时代景苑8栋1楼大厅（福永卫生监督所旁）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 1321591699,
+"poiIdStr": "1321591699",
+"realPoiId": 1321591699,
+"realPoiIdStr": "1321591699",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 1015429,
+"areaName": "深圳国际会展中心",
+"cates": "20,20606,20769,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "海艺大酒店(福永地铁站店)",
+"hasPackage": false,
+"lat": 22.679718,
+"lng": 113.82955,
+"markNumbers": 1623,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 146,
+"notRoundedLowestPrice": 14556,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"adsInfo": {
+"override": 0,
+"adType": 3,
+"adFlagUrl": "http://p1.meituan.net/movie/c0e2f6e0b3f6e719c62c9935001db8ce546.png",
+"impressionUrl": "https://mlog.dianping.com/api/cpv/action?act=3&ad_cj=xQsLDAnS-BwUMulRUdoiV3K6cMFvZqK_lDujmTKV0zSjGqTK72ZyrQz__v5Sk7b-OUhLRCLiQuZz6Fe47F4_u4P9WWRAsIGnRwC3Jz0V461XMvyfX1GJy1hq2y_jZiLkPIgKDeFRTNlUdGiFChoabrRL6hARJePnswbQVXL1kKyPmQRCTUjEyu0touqqmeGS7Ugs49e1oZrYiI939qteqDysAUkA1Tqn-4jfhjdtDAYqzIwyRLfr_NSf5dYecEHj0aG1FHhPMEooqnzdu3GVcJ6VsoSBOc50WZIExTqE_b2CKgE4itzFlNBrhWuYBN73sInxP98sxXAxoSv7Ey814zEtI4AqXK3aloLwTAJ4OppFgyQI1uvDsCk19kERFnjL1Br12Tw5aQOe-ibN8tLwJICXZ6A77vyf2uiC9zWovR2xwgL1KnVXAyxpNNd9X8Sa1_jbg72ovY9m68oYbLoBxVkXDkJn0sS1o_xk8WFcoktGeq00RPAJH4-wrhhq1u4PQyY6sAkKcOWeIBGPZDtkfgX9ZFcv45bQn7TnUta1FkUE2RPFyKEsMZD_R1jJD0MqZI946rouj6xHQe5koVJiqw6wUkN3kdCiL76Br-2b0pitJbZqHxNYg9At3LiaUwIGjTF_EUeh5IPyoi9uQWQB-1FtAFSkdVDSpv2bvu3g39gjUagsqfXdJvglbdq65-x16bNtiw5kFeLm7lXsuhz_rgW75EM-0HQ1mY_2qUk06Hy7A4YeXbYUeOVVkVOa1DW1rGFqDqus43jOTdYmt68yB610UssZYKc6Y2fvjTkfBi7E1nPB4fo1-o3NUPP7U1nuZwnYOL9AI8_KEIuWYKmwBC5IIrzajXR-Sq-ik0B3z5Qadqki7dpRxvMCa5r6_sEN4CK0ezdlxZNC&sver=2&ad_v=1&ad_ci=xQsLDAnAJKBElBeupyslibwV3dIpawHWrDXs4aMlghDYyX9b-ipLC568RfHuHhDhvadPP3uXhyC5kIhUtFvSH-VYKQm37s6XKHKWsg&adidx=3",
+"clickUrl": "https://mlog.dianping.com/api/cpv/billing?act=2&ad_cj=xQsLDAnS-BwUMulRUdoiV3K6cMFvZqK_lDujmTKV0zSjGqTK72ZyrQz__v5Sk7b-OUhLRCLiQuZz6Fe47F4_u4P9WWRAsIGnRwC3Jz0V461XMvyfX1GJy1hq2y_jZiLkPIgKDeFRTNlUdGiFChoabrRL6hARJePnswbQVXL1kKyPmQRCTUjEyu0touqqmeGS7Ugs49e1oZrYiI939qteqDysAUkA1Tqn-4jfhjdtDAYqzIwyRLfr_NSf5dYecEHj0aG1FHhPMEooqnzdu3GVcJ6VsoSBOc50WZIExTqE_b2CKgE4itzFlNBrhWuYBN73sInxP98sxXAxoSv7Ey814zEtI4AqXK3aloLwTAJ4OppFgyQI1uvDsCk19kERFnjL1Br12Tw5aQOe-ibN8tLwJICXZ6A77vyf2uiC9zWovR2xwgL1KnVXAyxpNNd9X8Sa1_jbg72ovY9m68oYbLoBxVkXDkJn0sS1o_xk8WFcoktGeq00RPAJH4-wrhhq1u4PQyY6sAkKcOWeIBGPZDtkfgX9ZFcv45bQn7TnUta1FkUE2RPFyKEsMZD_R1jJD0MqZI946rouj6xHQe5koVJiqw6wUkN3kdCiL76Br-2b0pitJbZqHxNYg9At3LiaUwIGjTF_EUeh5IPyoi9uQWQB-1FtAFSkdVDSpv2bvu3g39gjUagsqfXdJvglbdq65-x16bNtiw5kFeLm7lXsuhz_rgW75EM-0HQ1mY_2qUk06Hy7A4YeXbYUeOVVkVOa1DW1rGFqDqus43jOTdYmt68yB610UssZYKc6Y2fvjTkfBi7E1nPB4fo1-o3NUPP7U1nuZwnYOL9AI8_KEIuWYKmwBC5IIrzajXR-Sq-ik0B3z5Qadqki7dpRxvMCa5r6_sEN4CK0ezdlxZNC&sver=2&ad_v=1&ad_ci=xQsLDAnAJKBElBeupyslibwV3dIpawHWrDXs4aMlghDYyX9b-ipLC568RfHuHhDhvadPP3uXhyC5kIhUtFvSH-VYKQm37s6XKHKWsg&adidx=3",
+"fixedAdPosition": false
+},
+"historyCouponCount": 13191,
+"posdescr": "近福永汽车站 · 深圳国际会展中心",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 1321591699,
+"shopIdStr": "1321591699",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "34分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 146,
+"notRoundedOriginalPrice": 14556,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"commentsCountDesc": "1623条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "有影音房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "有棋牌房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近湖景",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "防疫清洁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "https://p0.meituan.net/travelcube/7cb841985ae88a985304dccc9c50702b6286.png",
+"imgWidth": 168,
+"imgHeight": 42,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "34分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"text": "连续3天更新清洁情况",
+"textColor": "#8D5C29",
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 177,
+"poiExtendsInfosDesc": [
+"2019年开业"
+],
+"commentCount": 1623,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "行李寄存免费",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E6%B5%B7%E8%89%BA%E5%A4%A7%E9%85%92%E5%BA%97%EF%BC%88%E7%A6%8F%E6%B0%B8%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%EF%BC%89&poiLat=22.679718&poiLng=113.82955&poiId=1231945998578790429&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车91公里,约1小时35分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/239074f2c1b5ad8cbf53418ca0a5c26c1261.png",
+"text": "距深圳宝安国际机场驾车13.5公里,约21分钟"
+}
+],
+"addrWithoutAdministrativeArea": "福永街道广深公路时代景苑8栋1楼大厅(福永卫生监督所旁)"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+6
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E6%B5%B7%E8%89%BA%E5%A4%A7%E9%85%92%E5%BA%97%28%E7%A6%8F%E6%B0%B8%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%29&dlat=22.679718&dlon=113.82955&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "1000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/86e36fd71f7c5e86540d581082dbfa1a3301840.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003021,
+"description": "列表页高星酒店标签",
+"url": "http://p0.meituan.net/hotelnoah/b33a030ef2664ad2aa21740b99569a8e.png"
+},
+{
+"boothId": 9003029,
+"description": "高星房型升级",
+"url": "http://p0.meituan.net/hotelnoah/35d55c720b8b44b6a1d9609a6339762b.png"
+}
+],
+"showType": "hotel",
+"addr": "南山区港城路前海湾花园4期11栋1楼（近前海世茂大厦）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 1483465632,
+"poiIdStr": "1483465632",
+"realPoiId": 1483465632,
+"realPoiIdStr": "1483465632",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29527,
+"areaName": "深圳湾口岸/蛇口",
+"cates": "20,20606,400023,20849,20706,20963,400434",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "雅园前海世茂酒店(深圳妈湾地铁站店)",
+"hasPackage": false,
+"lat": 22.50955,
+"lng": 113.88723,
+"markNumbers": 528,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 276,
+"notRoundedLowestPrice": 27600,
+"dayRoomSpan": 1,
+"hotelStar": "高档型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"adsInfo": {
+"override": 0,
+"adType": 0,
+"adFlagUrl": "http://p1.meituan.net/movie/c0e2f6e0b3f6e719c62c9935001db8ce546.png",
+"impressionUrl": "https://mlog.dianping.com/api/cpv/action?act=3&ad_cj=v7hwjwalTb9gz3ZwfT0D7biuxswuWXm3YYcUnn2eiluPy-fxM0VxexsI9W1GI_-trAz2f7pvbqEOQ-tIKMyRc0xZqfl0guaoZmnKB9leYi5Vd-f-szvk5pUHw1fcNpEQwWLNQ-Nmf6foOEalJoBvvigt9rEUqGdfmigzfpKVNLKuCUeaeskfKfS7E6CZ09fXptnbCKQ1ogf47m8FEMcE2Sy-OEZ0tn850uH-&sver=2&ad_v=1&ad_ci=v7hwjwa3kQMw1ylwen9z7b8Abifmcx4Y4_Nod1twTyz-aFtd8spKlneLzF7wHksXlhxn9jgHkQNfMBrNHZp6JJKki0k_zHPzeQ&adidx=4",
+"clickUrl": "https://mlog.dianping.com/api/cpv/billing?act=2&ad_cj=v7hwjwalTb9gz3ZwfT0D7biuxswuWXm3YYcUnn2eiluPy-fxM0VxexsI9W1GI_-trAz2f7pvbqEOQ-tIKMyRc0xZqfl0guaoZmnKB9leYi5Vd-f-szvk5pUHw1fcNpEQwWLNQ-Nmf6foOEalJoBvvigt9rEUqGdfmigzfpKVNLKuCUeaeskfKfS7E6CZ09fXptnbCKQ1ogf47m8FEMcE2Sy-OEZ0tn850uH-&sver=2&ad_v=1&ad_ci=v7hwjwa3kQMw1ylwen9z7b8Abifmcx4Y4_Nod1twTyz-aFtd8spKlneLzF7wHksXlhxn9jgHkQNfMBrNHZp6JJKki0k_zHPzeQ&adidx=4",
+"fixedAdPosition": true
+},
+"historyCouponCount": 3311,
+"posdescr": "深圳湾口岸/蛇口",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 1483465632,
+"shopIdStr": "1483465632",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "1000+消费",
+"poiRecommendTag": "高档型",
+"poiLastOrderTime": "7分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 309,
+"notRoundedOriginalPrice": 30900,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠33",
+"priceExtModel": {
+"text": "优惠33",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "528条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "商务出行",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "7分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": true,
+"albumCount": 147,
+"poiExtendsInfosDesc": [
+"2020年开业"
+],
+"commentCount": 528,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "无接触送餐",
+"iconUrl": "https://p0.meituan.net/travelcube/fed306e6049580f9528d88a62e8d8f5b1577.png",
+"attrId": 101625
+},
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "无接触送物",
+"iconUrl": "https://p1.meituan.net/travelcube/7d05e3ca43f850559efb56cfb9ce69dc3022.png",
+"attrId": 101626
+},
+{
+"attrDesc": "咖啡厅",
+"iconUrl": "https://p1.meituan.net/travelcube/085cc051a1a0b01a5cad1c24204400f61487.png",
+"attrId": 101096
+},
+{
+"attrDesc": "VIP通道入住",
+"iconUrl": "https://p0.meituan.net/travelcube/6caa5c2f25a9146435ba3894fa8817351647.png",
+"attrId": 101315
+},
+{
+"attrDesc": "茶室",
+"iconUrl": "https://p0.meituan.net/travelcube/513c442a46210ba91b765b588fe62d042004.png",
+"attrId": 101095
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "客房WiFi免费",
+"iconUrl": "https://p1.meituan.net/travelcube/0195598410d503f125c8777df84b4d6c2053.png",
+"attrId": 102051
+},
+{
+"attrDesc": "24小时前台",
+"iconUrl": "https://p1.meituan.net/travelcube/e6ffc7739829356f3b6711a254c958d5901.png",
+"attrId": 101041
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E9%9B%85%E5%9B%AD%E5%89%8D%E6%B5%B7%E4%B8%96%E8%8C%82%E9%85%92%E5%BA%97%EF%BC%88%E6%B7%B1%E5%9C%B3%E5%A6%88%E6%B9%BE%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%EF%BC%89&poiLat=22.50955&poiLng=113.88723&poiId=1334355442121310274&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车5.8公里,约12分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距妈湾地铁站-A口步行250米,约4分钟"
+}
+],
+"addrWithoutAdministrativeArea": "港城路前海湾花园4期11栋1楼"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"videoUrl": "http://s3plus.meituan.net/v1/mss_66f77a3644464b589f2f061a13c82013/hoteltranscoding/narrowband-hotel-ea836ee6-529c-11ec-a803-0a580a175647-880420",
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E9%9B%85%E5%9B%AD%E5%89%8D%E6%B5%B7%E4%B8%96%E8%8C%82%E9%85%92%E5%BA%97%28%E6%B7%B1%E5%9C%B3%E5%A6%88%E6%B9%BE%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%29&dlat=22.50955&dlon=113.88723&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": true,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.017036_0.047702_1483465632_1.800000"
+},
+"addPrice": false,
+"highStar": true
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/6cf619eb9eb1a73a6305e1f8f6c7bb08119876.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "安心住低风险",
+"url": "http://p0.meituan.net/hotelnoah/1eaffb99f9694458881f8d3c30a00323.png"
+}
+],
+"showType": "hotel",
+"addr": "光明区光明新区公明街道振明路161号四季星城B栋（公明街心公园西南200米）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 165848165,
+"poiIdStr": "165848165",
+"realPoiId": 165848165,
+"realPoiIdStr": "165848165",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 1016018,
+"areaName": "公明广场",
+"cates": "20,20606,20769,21145,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "四季星酒店(深圳公明广场地铁站店)",
+"hasPackage": false,
+"lat": 22.783123,
+"lng": 113.887323,
+"markNumbers": 5390,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 194,
+"notRoundedLowestPrice": 19400,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 50847,
+"posdescr": "近公明汽车站 · 公明广场",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 98878991,
+"shopIdStr": "98878991",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "18分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 221,
+"notRoundedOriginalPrice": 22100,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠27",
+"priceExtModel": {
+"text": "优惠27",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "5390条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "共享充电宝",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "18分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 265,
+"poiExtendsInfosDesc": [
+"2018年开业"
+],
+"commentCount": 5390,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "行李寄存",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"近核酸点",
+"近地铁"
+],
+"scoreInfo": "5.0分 很好",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您查询的酒店步行400米,约6分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距合水口地铁站-A口步行850米,约11分钟"
+}
+],
+"addrWithoutAdministrativeArea": "光明新区公明街道振明路161号四季星城B栋(公明街心公园西南200米)"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+6
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E5%9B%9B%E5%AD%A3%E6%98%9F%E9%85%92%E5%BA%97%28%E6%B7%B1%E5%9C%B3%E5%85%AC%E6%98%8E%E5%B9%BF%E5%9C%BA%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%29&dlat=22.783123&dlon=113.887323&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.015973_0.043128_165848165_1.700000"
+},
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "1000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/0413ce65c5f681da8d9c75e3c3a215985076115.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"预约发票",
+"近核酸点"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "top精选优质酒店简约战区",
+"url": "http://p1.meituan.net/hotelnoah/564eae86b6ae49739fe1c7895910b966.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区锦程路会展湾水岸广场3栋1楼",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 652829401,
+"poiIdStr": "652829401",
+"realPoiId": 652829401,
+"realPoiIdStr": "652829401",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 1015429,
+"areaName": "深圳国际会展中心",
+"cates": "20,20606,20769,21019,20780,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "国展苑行政公寓",
+"hasPackage": false,
+"lat": 22.701195,
+"lng": 113.781095,
+"markNumbers": 1300,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 154,
+"notRoundedLowestPrice": 15400,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"adsInfo": {
+"override": 0,
+"adType": 0,
+"adFlagUrl": "http://p1.meituan.net/movie/c0e2f6e0b3f6e719c62c9935001db8ce546.png",
+"impressionUrl": "https://mlog.dianping.com/api/cpv/action?act=3&ad_cj=RmAjv9BsznOfP0js_p_5_HNiE2Zp80qJ6RsOjYxgoqe1afIr_DaCVQYkE_A6-rxBBeosPNXlCBgasFD-63QEQ3puIeHb1V7tAyzHLJpv2WqyVNx4AV2ciOVqeJ3ok4rcOH58UAA5Vy8Ttz90c1s51yOttzpUxbwgKXILlewxYGfOYsVbpp9VJEce04MX1WmGGHNDGlnQ9p_6Gtvn6k0mP1bsBPGCOTpxaA&sver=2&ad_v=1&ad_ci=RmAjv9B-Es_PJ9eW-Z2Z_MumMU-914yx2K7Hc1NysPdDEuSTpvoBAzKXVezdJ9GRZ_72RxzExLaq9gLoDgj8qlDSY6iDNC6Bfw&adidx=6",
+"clickUrl": "https://mlog.dianping.com/api/cpv/billing?act=2&ad_cj=RmAjv9BsznOfP0js_p_5_HNiE2Zp80qJ6RsOjYxgoqe1afIr_DaCVQYkE_A6-rxBBeosPNXlCBgasFD-63QEQ3puIeHb1V7tAyzHLJpv2WqyVNx4AV2ciOVqeJ3ok4rcOH58UAA5Vy8Ttz90c1s51yOttzpUxbwgKXILlewxYGfOYsVbpp9VJEce04MX1WmGGHNDGlnQ9p_6Gtvn6k0mP1bsBPGCOTpxaA&sver=2&ad_v=1&ad_ci=RmAjv9B-Es_PJ9eW-Z2Z_MumMU-914yx2K7Hc1NysPdDEuSTpvoBAzKXVezdJ9GRZ_72RxzExLaq9gLoDgj8qlDSY6iDNC6Bfw&adidx=6",
+"fixedAdPosition": true
+},
+"historyCouponCount": 3680,
+"posdescr": "近沙井会展中心 · 深圳国际会展中心",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 652829401,
+"shopIdStr": "652829401",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "1000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "26分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 172,
+"notRoundedOriginalPrice": 17200,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠18",
+"priceExtModel": {
+"text": "优惠18",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "1300条评论",
+"poiTagList": [
+{
+"text": "预约发票",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "新开业/新装修",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "26分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 287,
+"poiExtendsInfosDesc": [
+"2022年开业"
+],
+"commentCount": 1300,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "行李寄存",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "信用卡结算服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fa35bedaf4fc4a1586661b213cd3c565649.png",
+"attrId": 101007
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E5%9B%BD%E5%B1%95%E8%8B%91%E8%A1%8C%E6%94%BF%E5%85%AC%E5%AF%93&poiLat=22.701195&poiLng=113.781095&poiId=1511597406452645936&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车8.8公里,约25分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距国展北地铁站-C1口步行550米,约7分钟"
+}
+],
+"addrWithoutAdministrativeArea": "锦程路会展湾水岸广场3栋1楼"
+},
+"dpSuperHotel": false,
+"hotelType": "酒店公寓",
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+7
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E5%9B%BD%E5%B1%95%E8%8B%91%E8%A1%8C%E6%94%BF%E5%85%AC%E5%AF%93&dlat=22.701195&dlon=113.781095&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.013518_0.039201_652829401_1.900000"
+},
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/8aaf315142fdc6e0a6cd6063731e79107531553.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003021,
+"description": "列表页高星酒店标签",
+"url": "http://p0.meituan.net/hotelnoah/b33a030ef2664ad2aa21740b99569a8e.png"
+},
+{
+"boothId": 9003029,
+"description": "高星房型升级",
+"url": "http://p0.meituan.net/hotelnoah/35d55c720b8b44b6a1d9609a6339762b.png"
+}
+],
+"showType": "hotel",
+"addr": "龙岗区吉祥三路25号（近深圳国际低碳城、沃尔玛宜城广场）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 194472191,
+"poiIdStr": "194472191",
+"realPoiId": 194472191,
+"realPoiIdStr": "194472191",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 33,
+"areaName": "龙岗区",
+"cates": "20,20606,400023,20849,20706,20963,400434,20780",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "深圳低碳乐城酒店",
+"hasPackage": true,
+"lat": 22.777328,
+"lng": 114.294112,
+"markNumbers": 442,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 220,
+"notRoundedLowestPrice": 22000,
+"dayRoomSpan": 1,
+"hotelStar": "高档型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 10754,
+"posdescr": "龙岗区",
+"useTime": "",
+"brandId": 267810,
+"avgScore": 4.9,
+"avgScoreDesc": "超棒",
+"shopId": 131500020,
+"shopIdStr": "131500020",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "高档型",
+"poiLastOrderTime": "1小时前有人预订",
+"scoreIntro": "4.9分 很好",
+"originalPriceDesc": "",
+"originalPrice": 244,
+"notRoundedOriginalPrice": 24333,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠24",
+"priceExtModel": {
+"text": "优惠24",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "442条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "健身房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "会议室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "共享充电宝",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "1小时前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": true,
+"albumCount": 234,
+"poiExtendsInfosDesc": [
+"2019年开业"
+],
+"commentCount": 442,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "健身室",
+"iconUrl": "https://p1.meituan.net/travelcube/c26e135010b57965565b702ebbbf6b28659.png",
+"attrId": 101028
+},
+{
+"attrDesc": "茶室",
+"iconUrl": "https://p0.meituan.net/travelcube/513c442a46210ba91b765b588fe62d042004.png",
+"attrId": 101095
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "会议厅",
+"iconUrl": "https://p1.meituan.net/travelcube/c631e90765fe0fa4591f14b4e061c3b01176.png",
+"attrId": 102043
+},
+{
+"attrDesc": "客房WiFi免费",
+"iconUrl": "https://p1.meituan.net/travelcube/0195598410d503f125c8777df84b4d6c2053.png",
+"attrId": 102051
+},
+{
+"attrDesc": "商务服务",
+"iconUrl": "https://p0.meituan.net/travelcube/31dc2a267366670d011f416fba6f36eb874.png",
+"attrId": 102044
+},
+{
+"attrDesc": "24小时前台",
+"iconUrl": "https://p1.meituan.net/travelcube/e6ffc7739829356f3b6711a254c958d5901.png",
+"attrId": 101041
+},
+{
+"attrDesc": "行李寄存",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "前台贵重物品保险柜",
+"iconUrl": "https://p0.meituan.net/travelcube/49c455e899179470ad58d017c94c71fb787.png",
+"attrId": 101009
+}
+],
+"serviceTagList": [
+"健身房",
+"免费停车场"
+],
+"scoreInfo": "4.9分 很好",
+"positionDescList": [],
+"addrWithoutAdministrativeArea": "吉祥三路25号"
+},
+"dpSuperHotel": false,
+"hotelType": "酒店公寓",
+"merchantMember": false,
+"videoUrl": "http://s3plus.meituan.net/v1/mss_66f77a3644464b589f2f061a13c82013/hoteltranscoding/narrowband-hotel-d36fbc3c-52a1-11ec-a803-0a580a175647-116502",
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E6%B7%B1%E5%9C%B3%E4%BD%8E%E7%A2%B3%E4%B9%90%E5%9F%8E%E9%85%92%E5%BA%97&dlat=22.777328&dlon=114.294112&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": true,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.018038_0.052310_194472191_1.900000"
+},
+"addPrice": false,
+"highStar": true
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchotel/d319d366a06a8c35bab5e8255fb3fbfa1250309.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "公益酒店",
+"url": "http://p0.meituan.net/hotelnoah/dd6954b6ffbb4159b4ff9d133762483b.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区福永镇福海街道育才路桥南新区130栋A座1楼（近宝安大道）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 986905491,
+"poiIdStr": "986905491",
+"realPoiId": 986905491,
+"realPoiIdStr": "986905491",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 1015429,
+"areaName": "深圳国际会展中心",
+"cates": "20,20606,400020,20963,20853",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "云栖轻奢酒店(国际会展中心店)",
+"hasPackage": false,
+"lat": 22.689872,
+"lng": 113.81068,
+"markNumbers": 4427,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 129,
+"notRoundedLowestPrice": 12900,
+"dayRoomSpan": 1,
+"hotelStar": "舒适型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"adsInfo": {
+"override": 0,
+"adType": 3,
+"adFlagUrl": "http://p1.meituan.net/movie/c0e2f6e0b3f6e719c62c9935001db8ce546.png",
+"impressionUrl": "https://mlog.dianping.com/api/cpv/action?act=3&ad_cj=Ut7C_-vWnWEchbP1xhcEeCEIq-WE9zUmylW3OBw_YaI3PGNw1BuI5Z-FbNRuunjWz7QkkwSu2wOdqeoUHmuXj1zi0qcm5SOQBodZtv4m2ZVLVAI4J0bQaaIeTFP6-f8uR4OZpr-9GE5jOdhmz_cfMk3rK-kV_aX6-sMjfkrxzH0Rq0spxcDtqOn4ZS0mx6rfIbQ5kj4uhlm0fXbpuZUKPuGlKoeJSjC0chYar9DgJ559xFdNL4bZyoFTxNynkBxNzXxlvy55ibLObCHRmWu3ibtFg6Z-fKIRvXKROQ_Q0ZFwaPRGaK5g6VLimAxrkbnyWV23jhZhZ2vaGjHC7XFvmSW7v2zRnU-DIEjtiwCz510rPr4F9VLlr_3n5ws6Uo6YwXzj5IKQhJ6IoKzczlCW6d9wyMH8wwJx9cFigEFCXrO2sFEBBsXpnh0TA7lYmXZCV_ixPTyou7PSvL1kNqVbgXpQyWcqAPSpSEglOsBMZvrTOtKfw8jKknDHqcd8IgCMWl6RtCeXKgw_uja5oOtvdLRd3aREXTeEBSSkc8VvPvrxKw_9i1ymebjM8W9AMIgOyS90H1CM08Tl-y4B8oXo5nWbG87zCGdkGhWoV6Vern3x_yXnqo04q7QwjvI3jJYfM9AUQkftIFYG6YshHv6Bprl3_KRMpWGwTof42QCX1E0rOeMsl60ZnKaSmVhSef288StYvsKsWXhJpJ_chn0Vz1fatMOyeORH9Sa773Jwy_b7KRkMxcz6UOM6kRa4OpF1_N8ZhrsBy_1ZXK3U3f4OMA7jalIUdlfgFsaFpn9FfL7zftZ2AOKI90jWFW59H4KaAa25UooYfC9cPO7QpvIZ78ykHkkeRRRjf6zXXLnpSo0_&sver=2&ad_v=1&ad_ci=Ut7C_-vEQd1MI00KLOZzoO9EfZv3UjTmmMGEny6DvdST6D2OFiQlGJIr6YTiZftwn8K8OW097U-WSBs2xyavJ4jnDL2703abIA&adidx=8",
+"clickUrl": "https://mlog.dianping.com/api/cpv/billing?act=2&ad_cj=Ut7C_-vWnWEchbP1xhcEeCEIq-WE9zUmylW3OBw_YaI3PGNw1BuI5Z-FbNRuunjWz7QkkwSu2wOdqeoUHmuXj1zi0qcm5SOQBodZtv4m2ZVLVAI4J0bQaaIeTFP6-f8uR4OZpr-9GE5jOdhmz_cfMk3rK-kV_aX6-sMjfkrxzH0Rq0spxcDtqOn4ZS0mx6rfIbQ5kj4uhlm0fXbpuZUKPuGlKoeJSjC0chYar9DgJ559xFdNL4bZyoFTxNynkBxNzXxlvy55ibLObCHRmWu3ibtFg6Z-fKIRvXKROQ_Q0ZFwaPRGaK5g6VLimAxrkbnyWV23jhZhZ2vaGjHC7XFvmSW7v2zRnU-DIEjtiwCz510rPr4F9VLlr_3n5ws6Uo6YwXzj5IKQhJ6IoKzczlCW6d9wyMH8wwJx9cFigEFCXrO2sFEBBsXpnh0TA7lYmXZCV_ixPTyou7PSvL1kNqVbgXpQyWcqAPSpSEglOsBMZvrTOtKfw8jKknDHqcd8IgCMWl6RtCeXKgw_uja5oOtvdLRd3aREXTeEBSSkc8VvPvrxKw_9i1ymebjM8W9AMIgOyS90H1CM08Tl-y4B8oXo5nWbG87zCGdkGhWoV6Vern3x_yXnqo04q7QwjvI3jJYfM9AUQkftIFYG6YshHv6Bprl3_KRMpWGwTof42QCX1E0rOeMsl60ZnKaSmVhSef288StYvsKsWXhJpJ_chn0Vz1fatMOyeORH9Sa773Jwy_b7KRkMxcz6UOM6kRa4OpF1_N8ZhrsBy_1ZXK3U3f4OMA7jalIUdlfgFsaFpn9FfL7zftZ2AOKI90jWFW59H4KaAa25UooYfC9cPO7QpvIZ78ykHkkeRRRjf6zXXLnpSo0_&sver=2&ad_v=1&ad_ci=Ut7C_-vEQd1MI00KLOZzoO9EfZv3UjTmmMGEny6DvdST6D2OFiQlGJIr6YTiZftwn8K8OW097U-WSBs2xyavJ4jnDL2703abIA&adidx=8",
+"fixedAdPosition": false
+},
+"historyCouponCount": 24645,
+"posdescr": "近福海街道 · 深圳国际会展中心",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 986905491,
+"shopIdStr": "986905491",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "舒适型",
+"poiLastOrderTime": "3小时前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 172,
+"notRoundedOriginalPrice": 17200,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠43",
+"priceExtModel": {
+"text": "优惠43",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "4427条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "有棋牌房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "商务出行",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "会议室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "3小时前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"text": "今日已消毒清洁、测温",
+"textColor": "#8D5C29",
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 281,
+"poiExtendsInfosDesc": [
+"2020年开业"
+],
+"commentCount": 4427,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "无接触送物",
+"iconUrl": "https://p1.meituan.net/travelcube/7d05e3ca43f850559efb56cfb9ce69dc3022.png",
+"attrId": 101626
+},
+{
+"attrDesc": "有收费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "中餐厅",
+"iconUrl": "https://p0.meituan.net/travelcube/e566ecb97a5e1e0bcd2bab0ad3be784e1752.png",
+"attrId": 101092
+},
+{
+"attrDesc": "行李寄存免费",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "信用卡结算服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fa35bedaf4fc4a1586661b213cd3c565649.png",
+"attrId": 101007
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E4%BA%91%E6%A0%96%E8%BD%BB%E5%A5%A2%E9%85%92%E5%BA%97%EF%BC%88%E5%9B%BD%E9%99%85%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83%E5%BA%97%EF%BC%89&poiLat=22.689872&poiLng=113.81068&poiId=1305382419850911827&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车47.5公里,约55分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距桥头地铁站-A口步行150米,约2分钟"
+}
+],
+"addrWithoutAdministrativeArea": "福永镇福海街道育才路桥南新区130栋A座1楼(近宝安大道)"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+5
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E4%BA%91%E6%A0%96%E8%BD%BB%E5%A5%A2%E9%85%92%E5%BA%97%28%E5%9B%BD%E9%99%85%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83%E5%BA%97%29&dlat=22.689872&dlon=113.81068&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "1000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/0a1c41a9242f315e500f4817848f2d3c3636211.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"预约发票"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+}
+],
+"showType": "hotel",
+"addr": "南山区西丽街道南天路九祥岭东区商业街2楼",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 1207635229,
+"poiIdStr": "1207635229",
+"realPoiId": 1207635229,
+"realPoiIdStr": "1207635229",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29531,
+"areaName": "大学城/西丽动物园",
+"cates": "20,20606,20769,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "深圳铂尔曼酒店(西丽地铁站店)",
+"hasPackage": false,
+"lat": 22.583172,
+"lng": 113.956419,
+"markNumbers": 426,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 190,
+"notRoundedLowestPrice": 19000,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 4438,
+"posdescr": "近西丽 · 大学城/西丽动物园",
+"useTime": "",
+"brandId": 0,
+"avgScore": 4.9,
+"avgScoreDesc": "超棒",
+"shopId": 1207635229,
+"shopIdStr": "1207635229",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "1000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "2分钟前有人预订",
+"scoreIntro": "4.9分 很好",
+"originalPriceDesc": "",
+"originalPrice": 212,
+"notRoundedOriginalPrice": 21200,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠22",
+"priceExtModel": {
+"text": "优惠22",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "426条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "预约发票",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "新开业/新装修",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "商务出行",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "共享充电宝",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "2分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 298,
+"poiExtendsInfosDesc": [
+"2021年开业"
+],
+"commentCount": 426,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "有收费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "行李寄存",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+}
+],
+"serviceTagList": [
+"近核酸点",
+"近地铁"
+],
+"scoreInfo": "4.9分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E6%B7%B1%E5%9C%B3%E9%93%82%E5%B0%94%E6%9B%BC%E9%85%92%E5%BA%97%EF%BC%88%E8%A5%BF%E4%B8%BD%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%EF%BC%89&poiLat=22.583172&poiLng=113.956419&poiId=1438707423635476567&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车31.2公里,约43分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距西丽地铁站-D口步行350米,约5分钟"
+}
+],
+"addrWithoutAdministrativeArea": "西丽街道南天路九祥岭东区商业街2楼"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+3
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E6%B7%B1%E5%9C%B3%E9%93%82%E5%B0%94%E6%9B%BC%E9%85%92%E5%BA%97%28%E8%A5%BF%E4%B8%BD%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%29&dlat=22.583172&dlon=113.956419&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.014717_0.039735_1207635229_1.700000"
+},
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/48fb4778440cc3911eda1eef73d0e4da200713.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003021,
+"description": "列表页高星酒店标签",
+"url": "http://p0.meituan.net/hotelnoah/b33a030ef2664ad2aa21740b99569a8e.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区国际机场空港八道8-12号",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 174353653,
+"poiIdStr": "174353653",
+"realPoiId": 174353653,
+"realPoiIdStr": "174353653",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29503,
+"areaName": "宝安机场/福永",
+"cates": "20,20606,20706,20963,20851,400434,400026",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "深圳机场凯悦酒店",
+"hasPackage": true,
+"lat": 22.62218,
+"lng": 113.81223,
+"markNumbers": 616,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 708,
+"notRoundedLowestPrice": 70800,
+"dayRoomSpan": 1,
+"hotelStar": "豪华型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 5582,
+"posdescr": "近深圳宝安机场 · 宝安机场/福永",
+"useTime": "",
+"brandId": 1225004,
+"avgScore": 4.5,
+"avgScoreDesc": "不错",
+"shopId": 107355436,
+"shopIdStr": "107355436",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "豪华型",
+"poiLastOrderTime": "7分钟前有人预订",
+"scoreIntro": "4.5分 好",
+"originalPriceDesc": "",
+"originalPrice": 708,
+"notRoundedOriginalPrice": 70800,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"commentsCountDesc": "616条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "按摩室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "健身房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "会议室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "含餐饮套餐",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "7分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": true,
+"albumCount": 449,
+"poiExtendsInfosDesc": [
+"2018年开业"
+],
+"commentCount": 616,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "健身室",
+"iconUrl": "https://p1.meituan.net/travelcube/c26e135010b57965565b702ebbbf6b28659.png",
+"attrId": 101028
+},
+{
+"attrDesc": "室内泳池",
+"iconUrl": "https://p0.meituan.net/travelcube/4115b4f5a251900fdb8d6bccb42a37c21949.png",
+"attrId": 102047
+},
+{
+"attrDesc": "酒吧",
+"iconUrl": "https://p0.meituan.net/travelcube/ca27f179b75914f46592449a2ca080921917.png",
+"attrId": 101011
+},
+{
+"attrDesc": "咖啡厅",
+"iconUrl": "https://p1.meituan.net/travelcube/085cc051a1a0b01a5cad1c24204400f61487.png",
+"attrId": 101096
+},
+{
+"attrDesc": "有收费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "多功能厅",
+"iconUrl": "https://p0.meituan.net/travelcube/63f3b056ecd500e8e14e47d84818828c1691.png",
+"attrId": 101325
+},
+{
+"attrDesc": "会议厅",
+"iconUrl": "https://p1.meituan.net/travelcube/c631e90765fe0fa4591f14b4e061c3b01176.png",
+"attrId": 102043
+},
+{
+"attrDesc": "客房WiFi免费",
+"iconUrl": "https://p1.meituan.net/travelcube/0195598410d503f125c8777df84b4d6c2053.png",
+"attrId": 102051
+},
+{
+"attrDesc": "商务服务",
+"iconUrl": "https://p0.meituan.net/travelcube/31dc2a267366670d011f416fba6f36eb874.png",
+"attrId": 102044
+},
+{
+"attrDesc": "24小时前台",
+"iconUrl": "https://p1.meituan.net/travelcube/e6ffc7739829356f3b6711a254c958d5901.png",
+"attrId": 101041
+}
+],
+"serviceTagList": [
+"近地铁",
+"按摩室"
+],
+"scoreInfo": "4.5分 好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BA%E5%87%AF%E6%82%A6%E9%85%92%E5%BA%97&poiLat=22.62218&poiLng=113.81223&poiId=1197828830077694056&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车32公里,约37分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距机场地铁站-B口步行300米,约4分钟"
+}
+],
+"addrWithoutAdministrativeArea": "国际机场空港八道8-12号"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"videoUrl": "http://s3plus.meituan.net/v1/mss_66f77a3644464b589f2f061a13c82013/hoteltranscoding/narrowband-hotel-739a212c-5296-11ec-a803-0a580a175647-505822",
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+7
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BA%E5%87%AF%E6%82%A6%E9%85%92%E5%BA%97&dlat=22.62218&dlon=113.81223&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": true,
+"addPrice": false,
+"highStar": true
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchotel/a06e1d8ead6a6a73b28891ce8294d7155126144.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "推荐城市人气酒店",
+"url": "http://p0.meituan.net/hotelnoah/a14f851818a945269b2f8e02b7477395.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区107国道西乡段88号（西乡大门对面）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 165719371,
+"poiIdStr": "165719371",
+"realPoiId": 165719371,
+"realPoiIdStr": "165719371",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29484,
+"areaName": "宝安中心区/前海",
+"cates": "20,20606,20769,20963,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "深圳瑞廷精品酒店(宝安万达广场店)",
+"hasPackage": false,
+"lat": 22.576622,
+"lng": 113.885053,
+"markNumbers": 2658,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 202,
+"notRoundedLowestPrice": 20200,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"adsInfo": {
+"override": 0,
+"adType": 0,
+"adFlagUrl": "http://p1.meituan.net/movie/c0e2f6e0b3f6e719c62c9935001db8ce546.png",
+"impressionUrl": "https://mlog.dianping.com/api/cpv/action?act=3&ad_cj=xcQqlcKlMiLETaaCxyIZ-_O9zVRLzXXqZ_D42p8bKzZ02NCWSyCg4VdDPQM5kvackaaaqDG7PWbNjwza4KJgh_Y4GNOCQxFonlYIFfnnkwUou5gmOnE44_7uP0zdGQIZDC6hlKw9xUImtmAOv5H_KZ3ZlMEvekBtNT9Yj2EoFMWXVCWcDe_13xn8ziQ5doNHRRYvkCxY1WSwoHYvLC3yYvEOHYh1zDbHow&sver=2&ad_v=1&ad_ci=xcQqlcK37p6UU7hy-NYZ2zsE2Xyvc11SA5bBMYlxwD0Me8XBzTgE90YP0D_8grsGv9v0fIxFVeB7eG-fZ3Aev5-PVlzwdrI&adidx=11",
+"clickUrl": "https://mlog.dianping.com/api/cpv/billing?act=2&ad_cj=xcQqlcKlMiLETaaCxyIZ-_O9zVRLzXXqZ_D42p8bKzZ02NCWSyCg4VdDPQM5kvackaaaqDG7PWbNjwza4KJgh_Y4GNOCQxFonlYIFfnnkwUou5gmOnE44_7uP0zdGQIZDC6hlKw9xUImtmAOv5H_KZ3ZlMEvekBtNT9Yj2EoFMWXVCWcDe_13xn8ziQ5doNHRRYvkCxY1WSwoHYvLC3yYvEOHYh1zDbHow&sver=2&ad_v=1&ad_ci=xcQqlcK37p6UU7hy-NYZ2zsE2Xyvc11SA5bBMYlxwD0Me8XBzTgE90YP0D_8grsGv9v0fIxFVeB7eG-fZ3Aev5-PVlzwdrI&adidx=11",
+"fixedAdPosition": true
+},
+"historyCouponCount": 27297,
+"posdescr": "近西乡街道 · 宝安中心区/前海",
+"useTime": "",
+"brandId": 0,
+"avgScore": 4.9,
+"avgScoreDesc": "超棒",
+"shopId": 98746476,
+"shopIdStr": "98746476",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "1分钟前有人预订",
+"scoreIntro": "4.9分 很好",
+"originalPriceDesc": "",
+"originalPrice": 225,
+"notRoundedOriginalPrice": 22500,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠23",
+"priceExtModel": {
+"text": "优惠23",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "2658条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "商务出行",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "1分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 261,
+"poiExtendsInfosDesc": [
+"2020年装修"
+],
+"commentCount": 2658,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "有停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "行李寄存免费",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "送餐服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fed306e6049580f9528d88a62e8d8f5b1577.png",
+"attrId": 101040
+},
+{
+"attrDesc": "信用卡结算服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fa35bedaf4fc4a1586661b213cd3c565649.png",
+"attrId": 101007
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "4.9分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E6%B7%B1%E5%9C%B3%E7%91%9E%E5%BB%B7%E7%B2%BE%E5%93%81%E9%85%92%E5%BA%97%EF%BC%88%E5%AE%9D%E5%AE%89%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89&poiLat=22.576622&poiLng=113.885053&poiId=1212611386434142294&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您步行800米,约10分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距翻身地铁站-B口驾车2.7公里,约5分钟"
+}
+],
+"addrWithoutAdministrativeArea": "107国道西乡段88号(西乡大门对面)"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+5
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E6%B7%B1%E5%9C%B3%E7%91%9E%E5%BB%B7%E7%B2%BE%E5%93%81%E9%85%92%E5%BA%97%28%E5%AE%9D%E5%AE%89%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97%29&dlat=22.576622&dlon=113.885053&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.012305_0.033223_165719371_1.700000"
+},
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/hotelbiz/d9baefe13d59aef1018707191fc89b0f1874546.png",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 9003029,
+"description": "2022中秋",
+"url": "http://p0.meituan.net/hotelnoah/2d20e7a4e48647fd86bede32a60283db.png"
+}
+],
+"showType": "hotel",
+"addr": "光明区公明街道南庄新村1街1号（万盛百货斜对面，近光明高级中学）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 163933518,
+"poiIdStr": "163933518",
+"realPoiId": 163933518,
+"realPoiIdStr": "163933518",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 1016018,
+"areaName": "公明广场",
+"cates": "20,20606,400020,20963,20853,21145",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "铂尔顿酒店(深圳公明红花山地铁站店)",
+"hasPackage": false,
+"lat": 22.77114,
+"lng": 113.909116,
+"markNumbers": 2484,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 250,
+"notRoundedLowestPrice": 25000,
+"dayRoomSpan": 1,
+"hotelStar": "舒适型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 33899,
+"posdescr": "公明广场",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 97080478,
+"shopIdStr": "97080478",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "舒适型",
+"poiLastOrderTime": "1分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 250,
+"notRoundedOriginalPrice": 25000,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"commentsCountDesc": "2484条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "零压助眠房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "会议室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "共享充电宝",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "1分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"text": "今日已消毒清洁、测温",
+"textColor": "#8D5C29",
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 281,
+"poiExtendsInfosDesc": [
+"2019年装修"
+],
+"commentCount": 2484,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "客房WiFi免费",
+"iconUrl": "https://p1.meituan.net/travelcube/0195598410d503f125c8777df84b4d6c2053.png",
+"attrId": 102051
+},
+{
+"attrDesc": "行李寄存",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"近核酸点",
+"近地铁"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E9%93%82%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%97%EF%BC%88%E6%B7%B1%E5%9C%B3%E5%85%AC%E6%98%8E%E7%BA%A2%E8%8A%B1%E5%B1%B1%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%EF%BC%89&poiLat=22.77114&poiLng=113.909116&poiId=1197828623801806938&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车7.1公里,约13分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距红花山地铁站-E1口步行1.1公里,约14分钟"
+}
+],
+"addrWithoutAdministrativeArea": "公明街道南庄新村1街1号(万盛百货斜对面,近光明高级中学)"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E9%93%82%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%97%28%E6%B7%B1%E5%9C%B3%E5%85%AC%E6%98%8E%E7%BA%A2%E8%8A%B1%E5%B1%B1%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%29&dlat=22.77114&dlon=113.909116&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "1000+消费",
+"frontImg": "http://p1.meituan.net/w.h/tdchoteldark/0db31a9d2b0d21589f8cac9383081f9d2768325.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"公益商家"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "安心退中高风险",
+"url": "http://p1.meituan.net/hotelnoah/d67cc0f5ff704e71a7886512d1ee8786.png"
+}
+],
+"showType": "hotel",
+"addr": "龙华区环观南路金雄达广场",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 876142009,
+"poiIdStr": "876142009",
+"realPoiId": 876142009,
+"realPoiIdStr": "876142009",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29491,
+"areaName": "观澜",
+"cates": "20,20606,20769,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "城邦轻奢酒店(龙华区观澜高新科技园店)",
+"hasPackage": false,
+"lat": 22.69067,
+"lng": 114.074511,
+"markNumbers": 566,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 248,
+"notRoundedLowestPrice": 24800,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"adsInfo": {
+"override": 0,
+"adType": 3,
+"adFlagUrl": "http://p1.meituan.net/movie/c0e2f6e0b3f6e719c62c9935001db8ce546.png",
+"impressionUrl": "https://mlog.dianping.com/api/cpv/action?act=3&ad_cj=bQntCgARiIxv8LsnaezeeofUwsN435sL6W0LTiopP5TwJ8JFABEStSQ58k2otRcMb-Ja6QTqseEinLrHAbx1tX5_OCR_rhwh-WUIuCmHz-rTkG7xb407uM4ZYxYGCcnRdZfkwC5MjoQNyNRvPm2dOvA6kTCYb69kv7hnucxwILk9mDQwaylO7lbwII3lOVwI2asIwfgIMdbEPzYOt9oB0LUf4Xtj3wlDO4JxW-OohEbVXVPDxdO82_sTBvV7vtXQ_d5XARSmXGwbzXKiWtmfhJAx2ocJhK8G9quWlPpouUChJo0fjErDN9Yt5xZjegilI8ONzTOnkaUozZEmsXj6FFCYQ21-q2en78ojdAEzUIeGQ3qmgu2lHs1k6L0piwhY4XCVR2zw0dRmZnxLzH9Hl_5cEsC1mK4euvVo-iV8V4JgD1fdD2RGBWcFQi8LiLZOwvDKwbc4VPM3RT0H8tIN_avArWopyGwF4rZTgPuIsBpJA0F7rIcU_feooGTooWnVRR_VjR4xsuQ2-yzOrr6r5TjEaA7Y7x0_SKPxCCD3xHP1wEx9VJbamZbnDXzCVLrcw8fup5c9XS5Fti9svddSZNqF5GIhry2HpfpRGQ0_zs7lTbh9Cit7Aw-KYe2mqYjCzOPxgzPcEGvz_HNmmI-veFzfXMCo6NIOc-sSSfB-PFtCe-SCOyLVtME-2xaK0yq8Hl7ambQjTh2I05sBNNlMZXT9Hzm6WXgvmZm9Bn7V5dKNv_rrAwJ8MdIzJsGFaCCV6Lcn08K40HbSYjra0umlYfV0Ss_4jFoeG1nNzjGejIpsn7LH7OD6RNadm5Nss-4UZwPnOalFLgcIxTkbQXKSx_2Lc8W2Tg8R3tesF2L7IyDyZg&sver=2&ad_v=1&ad_ci=bQntCgADVDA_VkXYnx3Zokn6Cco5b4Ad1GJHNrmb3lpU9hzUUzj4CYByR0IWezA4-i3yy5qpYScxV5rL1OmFKnVohEdI9r6vkI55&adidx=13",
+"clickUrl": "https://mlog.dianping.com/api/cpv/billing?act=2&ad_cj=bQntCgARiIxv8LsnaezeeofUwsN435sL6W0LTiopP5TwJ8JFABEStSQ58k2otRcMb-Ja6QTqseEinLrHAbx1tX5_OCR_rhwh-WUIuCmHz-rTkG7xb407uM4ZYxYGCcnRdZfkwC5MjoQNyNRvPm2dOvA6kTCYb69kv7hnucxwILk9mDQwaylO7lbwII3lOVwI2asIwfgIMdbEPzYOt9oB0LUf4Xtj3wlDO4JxW-OohEbVXVPDxdO82_sTBvV7vtXQ_d5XARSmXGwbzXKiWtmfhJAx2ocJhK8G9quWlPpouUChJo0fjErDN9Yt5xZjegilI8ONzTOnkaUozZEmsXj6FFCYQ21-q2en78ojdAEzUIeGQ3qmgu2lHs1k6L0piwhY4XCVR2zw0dRmZnxLzH9Hl_5cEsC1mK4euvVo-iV8V4JgD1fdD2RGBWcFQi8LiLZOwvDKwbc4VPM3RT0H8tIN_avArWopyGwF4rZTgPuIsBpJA0F7rIcU_feooGTooWnVRR_VjR4xsuQ2-yzOrr6r5TjEaA7Y7x0_SKPxCCD3xHP1wEx9VJbamZbnDXzCVLrcw8fup5c9XS5Fti9svddSZNqF5GIhry2HpfpRGQ0_zs7lTbh9Cit7Aw-KYe2mqYjCzOPxgzPcEGvz_HNmmI-veFzfXMCo6NIOc-sSSfB-PFtCe-SCOyLVtME-2xaK0yq8Hl7ambQjTh2I05sBNNlMZXT9Hzm6WXgvmZm9Bn7V5dKNv_rrAwJ8MdIzJsGFaCCV6Lcn08K40HbSYjra0umlYfV0Ss_4jFoeG1nNzjGejIpsn7LH7OD6RNadm5Nss-4UZwPnOalFLgcIxTkbQXKSx_2Lc8W2Tg8R3tesF2L7IyDyZg&sver=2&ad_v=1&ad_ci=bQntCgADVDA_VkXYnx3Zokn6Cco5b4Ad1GJHNrmb3lpU9hzUUzj4CYByR0IWezA4-i3yy5qpYScxV5rL1OmFKnVohEdI9r6vkI55&adidx=13",
+"fixedAdPosition": false
+},
+"historyCouponCount": 3263,
+"posdescr": "观澜",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 876142009,
+"shopIdStr": "876142009",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "1000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "2分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 355,
+"notRoundedOriginalPrice": 35500,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠107",
+"priceExtModel": {
+"text": "优惠107",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "566条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "公益商家",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近湖景",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "新开业/新装修",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "共享充电宝",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "防疫清洁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "https://p0.meituan.net/travelcube/7cb841985ae88a985304dccc9c50702b6286.png",
+"imgWidth": 168,
+"imgHeight": 42,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "2分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"text": "今日已消毒清洁、测温",
+"textColor": "#8D5C29",
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 360,
+"poiExtendsInfosDesc": [
+"2022年开业"
+],
+"commentCount": 566,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近湖景"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E5%9F%8E%E9%82%A6%E8%BD%BB%E5%A5%A2%E9%85%92%E5%BA%97%EF%BC%88%E9%BE%99%E5%8D%8E%E5%8C%BA%E8%A7%82%E6%BE%9C%E9%AB%98%E6%96%B0%E7%A7%91%E6%8A%80%E5%9B%AD%E5%BA%97%EF%BC%89&poiLat=22.69067&poiLng=114.074511&poiId=1514794848794906686&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您步行400米,约5分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距平湖站驾车7公里,约16分钟"
+}
+],
+"addrWithoutAdministrativeArea": "环观南路金雄达广场"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"videoUrl": "https://s3plus.meituan.net/v1/mss_66f77a3644464b589f2f061a13c82013/hoteltranscoding/1a64df55-5ba2-49ed-b2fb-ee0fbe0d4b16.mp4",
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E5%9F%8E%E9%82%A6%E8%BD%BB%E5%A5%A2%E9%85%92%E5%BA%97%28%E9%BE%99%E5%8D%8E%E5%8C%BA%E8%A7%82%E6%BE%9C%E9%AB%98%E6%96%B0%E7%A7%91%E6%8A%80%E5%9B%AD%E5%BA%97%29&dlat=22.69067&dlon=114.074511&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/0486ca55a36f7215210f41c72c2323551229929.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003021,
+"description": "列表页高星酒店标签",
+"url": "http://p0.meituan.net/hotelnoah/b33a030ef2664ad2aa21740b99569a8e.png"
+},
+{
+"boothId": 9003029,
+"description": "高星房型升级",
+"url": "http://p0.meituan.net/hotelnoah/35d55c720b8b44b6a1d9609a6339762b.png"
+}
+],
+"showType": "hotel",
+"addr": "龙岗区横岗街道塘坑路7-1号（距塘坑地铁站C出口、塘坑地铁站公交站100米）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 870496652,
+"poiIdStr": "870496652",
+"realPoiId": 870496652,
+"realPoiIdStr": "870496652",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29512,
+"areaName": "龙岗区",
+"cates": "20,20606,400023,20849,20706,20963,400434",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "朵拉清水湾酒店(深圳横岗塘坑地铁站店)",
+"hasPackage": false,
+"lat": 22.63886,
+"lng": 114.19445,
+"markNumbers": 22731,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 238,
+"notRoundedLowestPrice": 23800,
+"dayRoomSpan": 1,
+"hotelStar": "高档型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 63026,
+"posdescr": "近塘坑地铁站 · 龙岗区",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 870496652,
+"shopIdStr": "870496652",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "高档型",
+"poiLastOrderTime": "30分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 248,
+"notRoundedOriginalPrice": 24800,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠10",
+"priceExtModel": {
+"text": "优惠10",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "1万+条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "有棋牌房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "按摩室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "商务出行",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "30分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": true,
+"albumCount": 526,
+"poiExtendsInfosDesc": [
+"2019年装修"
+],
+"commentCount": 22731,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "咖啡厅",
+"iconUrl": "https://p1.meituan.net/travelcube/085cc051a1a0b01a5cad1c24204400f61487.png",
+"attrId": 101096
+},
+{
+"attrDesc": "棋牌室",
+"iconUrl": "https://p0.meituan.net/travelcube/f00cf418109d5e0fb23573c6800f485e1665.png",
+"attrId": 101019
+},
+{
+"attrDesc": "VIP通道入住",
+"iconUrl": "https://p0.meituan.net/travelcube/6caa5c2f25a9146435ba3894fa8817351647.png",
+"attrId": 101315
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "多功能厅",
+"iconUrl": "https://p0.meituan.net/travelcube/63f3b056ecd500e8e14e47d84818828c1691.png",
+"attrId": 101325
+},
+{
+"attrDesc": "会议厅收费",
+"iconUrl": "https://p1.meituan.net/travelcube/c631e90765fe0fa4591f14b4e061c3b01176.png",
+"attrId": 102043
+},
+{
+"attrDesc": "客房WiFi免费",
+"iconUrl": "https://p1.meituan.net/travelcube/0195598410d503f125c8777df84b4d6c2053.png",
+"attrId": 102051
+},
+{
+"attrDesc": "商务服务",
+"iconUrl": "https://p0.meituan.net/travelcube/31dc2a267366670d011f416fba6f36eb874.png",
+"attrId": 102044
+},
+{
+"attrDesc": "24小时前台",
+"iconUrl": "https://p1.meituan.net/travelcube/e6ffc7739829356f3b6711a254c958d5901.png",
+"attrId": 101041
+}
+],
+"serviceTagList": [
+"近核酸点",
+"有棋牌房"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E6%9C%B5%E6%8B%89%E6%B8%85%E6%B0%B4%E6%B9%BE%E9%85%92%E5%BA%97%EF%BC%88%E6%B7%B1%E5%9C%B3%E6%A8%AA%E5%B2%97%E5%A1%98%E5%9D%91%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%EF%BC%89&poiLat=22.63886&poiLng=114.19445&poiId=1197828776881299495&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车22.2公里,约26分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距塘坑地铁站-C口步行250米,约3分钟"
+}
+],
+"addrWithoutAdministrativeArea": "横岗街道塘坑路7-1号"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"videoUrl": "http://s3plus.meituan.net/v1/mss_66f77a3644464b589f2f061a13c82013/hoteltranscoding/narrowband-hotel-1f691285-e9b8-4b8f-8efd-7c701c80be05-7677835",
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+6
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E6%9C%B5%E6%8B%89%E6%B8%85%E6%B0%B4%E6%B9%BE%E9%85%92%E5%BA%97%28%E6%B7%B1%E5%9C%B3%E6%A8%AA%E5%B2%97%E5%A1%98%E5%9D%91%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97%29&dlat=22.63886&dlon=114.19445&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": true,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.016958_0.037308_870496652_1.200000"
+},
+"addPrice": false,
+"highStar": true
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/8ab875d183e00cba243328a5e64a7d424640456.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "安心退中高风险",
+"url": "http://p1.meituan.net/hotelnoah/d67cc0f5ff704e71a7886512d1ee8786.png"
+}
+],
+"showType": "hotel",
+"addr": "龙华区观澜街道五和大道新安汇大厦1楼",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 1824286820,
+"poiIdStr": "1824286820",
+"realPoiId": 1824286820,
+"realPoiIdStr": "1824286820",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29491,
+"areaName": "观澜",
+"cates": "20,20606,20769,20963,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "柏槿酒店(观澜店)",
+"hasPackage": false,
+"lat": 22.6856,
+"lng": 114.0783,
+"markNumbers": 1217,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 262,
+"notRoundedLowestPrice": 26200,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 6045,
+"posdescr": "观澜",
+"useTime": "",
+"brandId": 2889219,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 1824286820,
+"shopIdStr": "1824286820",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "16分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 328,
+"notRoundedOriginalPrice": 32800,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠66",
+"priceExtModel": {
+"text": "优惠66",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "1217条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "有棋牌房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近湖景",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "商务出行",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "会议室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "16分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 203,
+"poiExtendsInfosDesc": [
+"2021年装修"
+],
+"commentCount": 1217,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "中餐厅",
+"iconUrl": "https://p0.meituan.net/travelcube/e566ecb97a5e1e0bcd2bab0ad3be784e1752.png",
+"attrId": 101092
+},
+{
+"attrDesc": "行李寄存免费",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "送餐服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fed306e6049580f9528d88a62e8d8f5b1577.png",
+"attrId": 101040
+},
+{
+"attrDesc": "信用卡结算服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fa35bedaf4fc4a1586661b213cd3c565649.png",
+"attrId": 101007
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E6%9F%8F%E6%A7%BF%E9%85%92%E5%BA%97%EF%BC%88%E8%A7%82%E6%BE%9C%E5%BA%97%EF%BC%89&poiLat=22.6856&poiLng=114.0783&poiId=1398230591744266320&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车7.5公里,约16分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距平湖站驾车7.4公里,约16分钟"
+}
+],
+"addrWithoutAdministrativeArea": "观澜街道五和大道新安汇大厦1楼"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E6%9F%8F%E6%A7%BF%E9%85%92%E5%BA%97%28%E8%A7%82%E6%BE%9C%E5%BA%97%29&dlat=22.6856&dlon=114.0783&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.012504_0.033760_1824286820_1.700000"
+},
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "1000+消费",
+"frontImg": "http://p1.meituan.net/w.h/tdchoteldark/578a2eb1133384795ecbf6797309646e812759.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003021,
+"description": "列表页高星酒店标签",
+"url": "http://p0.meituan.net/hotelnoah/b33a030ef2664ad2aa21740b99569a8e.png"
+},
+{
+"boothId": 9003029,
+"description": "高星房型升级",
+"url": "http://p0.meituan.net/hotelnoah/35d55c720b8b44b6a1d9609a6339762b.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区航城街道航空路郑日毫商业楼1楼",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 905342627,
+"poiIdStr": "905342627",
+"realPoiId": 905342627,
+"realPoiIdStr": "905342627",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29503,
+"areaName": "宝安机场/福永",
+"cates": "20,20606,400023,20849,20706,400434",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "廷泊酒店(深圳宝安机场店)",
+"hasPackage": false,
+"lat": 22.604166,
+"lng": 113.835555,
+"markNumbers": 569,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 282,
+"notRoundedLowestPrice": 28111,
+"dayRoomSpan": 1,
+"hotelStar": "高档型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"adsInfo": {
+"override": 0,
+"adType": 0,
+"adFlagUrl": "http://p1.meituan.net/movie/c0e2f6e0b3f6e719c62c9935001db8ce546.png",
+"impressionUrl": "https://mlog.dianping.com/api/cpv/action?act=3&ad_cj=jdYWmOmRUEIkpWVeMeYXmuFEpUifjkwxhj3BHNymMggh2wL1OyTWmaTAbc1DmE_PmV5kdqNAkoEVok1FY8tcQDl-Cz7UEvoQwc2GZat0K-HWyHs3EeklvB1KLhEs6iAw5pwwhZl6XpShVUHX9InUUnzci3VaO0WNHeKNRtV646wkgaUtHvag12ia2W9WV2hGLhg91mK-r6RPp8hPDTBcVkpWQm0Y1GuqsQ&sver=2&ad_v=1&ad_ci=jdYWmOmDjP50u3uuDhIVvi99NuZ8EGTOgCaHqJwlOOU1FCfUEpV5CuxvlkPwyqYjYorfJA3WJTYEXhIDV30e_deBuoEnCF0A-LE&adidx=16",
+"clickUrl": "https://mlog.dianping.com/api/cpv/billing?act=2&ad_cj=jdYWmOmRUEIkpWVeMeYXmuFEpUifjkwxhj3BHNymMggh2wL1OyTWmaTAbc1DmE_PmV5kdqNAkoEVok1FY8tcQDl-Cz7UEvoQwc2GZat0K-HWyHs3EeklvB1KLhEs6iAw5pwwhZl6XpShVUHX9InUUnzci3VaO0WNHeKNRtV646wkgaUtHvag12ia2W9WV2hGLhg91mK-r6RPp8hPDTBcVkpWQm0Y1GuqsQ&sver=2&ad_v=1&ad_ci=jdYWmOmDjP50u3uuDhIVvi99NuZ8EGTOgCaHqJwlOOU1FCfUEpV5CuxvlkPwyqYjYorfJA3WJTYEXhIDV30e_deBuoEnCF0A-LE&adidx=16",
+"fixedAdPosition": true
+},
+"historyCouponCount": 3177,
+"posdescr": "近三围码头 · 宝安机场/福永",
+"useTime": "",
+"brandId": 2889134,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 905342627,
+"shopIdStr": "905342627",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "1000+消费",
+"poiRecommendTag": "高档型",
+"poiLastOrderTime": "3小时前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 282,
+"notRoundedOriginalPrice": 28111,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"commentsCountDesc": "569条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "机器人服务",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "健身房",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "新开业/新装修",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "会议室",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "3小时前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": true,
+"albumCount": 250,
+"poiExtendsInfosDesc": [
+"2021年开业"
+],
+"commentCount": 569,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "自助入住机",
+"iconUrl": "https://p0.meituan.net/travelcube/dd836c55c21d1b30fdb323cb25c9456d1594.png",
+"attrId": 101622
+},
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "健身室",
+"iconUrl": "https://p1.meituan.net/travelcube/c26e135010b57965565b702ebbbf6b28659.png",
+"attrId": 101028
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "会议厅收费",
+"iconUrl": "https://p1.meituan.net/travelcube/c631e90765fe0fa4591f14b4e061c3b01176.png",
+"attrId": 102043
+},
+{
+"attrDesc": "商务服务",
+"iconUrl": "https://p0.meituan.net/travelcube/31dc2a267366670d011f416fba6f36eb874.png",
+"attrId": 102044
+},
+{
+"attrDesc": "24小时前台",
+"iconUrl": "https://p1.meituan.net/travelcube/e6ffc7739829356f3b6711a254c958d5901.png",
+"attrId": 101041
+},
+{
+"attrDesc": "行李寄存免费",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫车服务",
+"iconUrl": "https://p0.meituan.net/travelcube/0e21e407e855e4ce9178ed3fdf41ed991688.png",
+"attrId": 101102
+}
+],
+"serviceTagList": [
+"近核酸点",
+"机器人服务"
+],
+"scoreInfo": "5.0分 很好",
+"positionDescList": [
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距固戍地铁站-D口步行1.4公里,约18分钟"
+}
+],
+"addrWithoutAdministrativeArea": "航城街道航空路郑日毫商业楼1楼"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+5
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E5%BB%B7%E6%B3%8A%E9%85%92%E5%BA%97%28%E6%B7%B1%E5%9C%B3%E5%AE%9D%E5%AE%89%E6%9C%BA%E5%9C%BA%E5%BA%97%29&dlat=22.604166&dlon=113.835555&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": true,
+"addPrice": false,
+"highStar": true
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/hotelbiz/62a411cfc68a1fbafeb230319a84b886101941.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "2022中秋",
+"url": "http://p0.meituan.net/hotelnoah/2d20e7a4e48647fd86bede32a60283db.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区宝安大道6012号（兴围公交站旁，距后瑞地铁站B出口700米）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 4865177,
+"poiIdStr": "4865177",
+"realPoiId": 4865177,
+"realPoiIdStr": "4865177",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29503,
+"areaName": "宝安机场/福永",
+"cates": "20,20606,20769,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "聚鑫Hotel(深圳机场T3航站楼店)",
+"hasPackage": false,
+"lat": 22.635271,
+"lng": 113.830191,
+"markNumbers": 3913,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 109,
+"notRoundedLowestPrice": 10900,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 33872,
+"posdescr": "近后瑞 · 宝安机场/福永",
+"useTime": "",
+"brandId": 937417,
+"avgScore": 4.9,
+"avgScoreDesc": "超棒",
+"shopId": 18344018,
+"shopIdStr": "18344018",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "1小时前有人预订",
+"scoreIntro": "4.9分 很好",
+"originalPriceDesc": "",
+"originalPrice": 119,
+"notRoundedOriginalPrice": 11900,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠10",
+"priceExtModel": {
+"text": "优惠10",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "3913条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近机场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "学校周边",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "1小时前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 245,
+"poiExtendsInfosDesc": [
+"2020年装修"
+],
+"commentCount": 3913,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "有收费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "行李寄存",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"近核酸点",
+"近地铁"
+],
+"scoreInfo": "4.9分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E8%81%9A%E9%91%ABHotel%EF%BC%88%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BAT3%E8%88%AA%E7%AB%99%E6%A5%BC%E5%BA%97%EF%BC%89&poiLat=22.635271&poiLng=113.830191&poiId=1197828711114645587&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您步行<100米,约1分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距后瑞地铁站-B口步行850米,约11分钟"
+}
+],
+"addrWithoutAdministrativeArea": "宝安大道6012号(兴围公交站旁,距后瑞地铁站B出口700米)"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+3
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E8%81%9A%E9%91%ABHotel%28%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BAT3%E8%88%AA%E7%AB%99%E6%A5%BC%E5%BA%97%29&dlat=22.635271&dlon=113.830191&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.011570_0.032396_4865177_1.800000"
+},
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "1000+消费",
+"frontImg": "http://p1.meituan.net/w.h/tdchoteldark/95f6b33fe920afe8b0829d49a5930a9e10128804.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "公益酒店",
+"url": "http://p0.meituan.net/hotelnoah/dd6954b6ffbb4159b4ff9d133762483b.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区福海街道锦程路会展湾水岸广场7栋3楼312号",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 565081029,
+"poiIdStr": "565081029",
+"realPoiId": 565081029,
+"realPoiIdStr": "565081029",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 1015429,
+"areaName": "深圳国际会展中心",
+"cates": "20,20606,20769,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "诺可斯登精品酒店式公寓(深圳国际会展中心店)",
+"hasPackage": false,
+"lat": 22.69829,
+"lng": 113.78194,
+"markNumbers": 300,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 167,
+"notRoundedLowestPrice": 16700,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"adsInfo": {
+"override": 0,
+"adType": 3,
+"adFlagUrl": "http://p1.meituan.net/movie/c0e2f6e0b3f6e719c62c9935001db8ce546.png",
+"impressionUrl": "https://mlog.dianping.com/api/cpv/action?act=3&ad_cj=SfWCkEXyql8jdrjVtiDZhRqbIr5c0s83VCZqHkvfYExjXZpuMB2w6vhaYgOuLqX_rnEBNYgcgZknQpXl_SLSQuV6y9wN8hZppJgggU5-Rqdiut8h3Xuj0PoETVRJVX6-mV0n97Buv7fcXLuzgJD-b2WTUGSHuwysO0agHRwxVgKfTj7nU41xjZjQ6RmZcEzTm4-VOMb5FWoNp9THquzIeyJadKDPtNjNxE0YLBv8in-QPyhfKimz6nG4lbAXqBCM3Sze58U2gVAyBBEnpAcRSyCTbyL29RzAiwmwCRfS_fscs4IDr1GqinvXwj1wOT3xdJF0U_q110_jBExgmqr45uwwE2lxGjDUQ_CyrLaHpKHTWsPJBFOdKHjBbqwMF8CW_wFiWpBLxXpMxS3kXs6vrkZVab_yT3Nsl8gvs-4kiAQOB-mK9AxpMRB2STh-5f3lcF-8GAK0WOHl2prZc44i1UllWJlLVlb-V-OoJnI4kLElTg0ljW6MZDkYuaPkNzbxOGoMFQB5kBOmISyUt2jtBex4d-Hu01fPkC_Xt9GxRIWq6wjjjBV3hLNbm8Aj5TxlbNhB2dEX5b1FDmi-6HDL4HxiYoUFcDYn63D984_QUEdJe7hCaC0NnTQJcb2P7wHOUAHI6ech-W6XlmlPlSl39o2Fuczd_ZOvEGewVdxXAoUCGvHWLIRZv4plrGtj3neQhieLXfQ63duR-P6GB0WNF8PY8gFtgxgDfX_RNkeQQBpJ-NuOTPFmAYkKAbROa4Gn4m0TvtLTq92xrH_gIXTTkqNZj3dZI7PzwPAInPnehOOdaL9X5wnfh23cPwBkzFk1pTzj5EkCbJkOfsd2EtGoFN7AjQKeplSiaSX1rDlukzKhyMeNvUYYRNXK_2OskUy-vK_Q&sver=2&ad_v=1&ad_ci=SfWCkEXgduNz0EaoXdHeXVeYSaCWK8cpe-yWjbvmzxTg063U5XGFS5kuoY5MslV60rWLDjHuzEG27GXGXX2D6ZWDhQN1TmBIpsnY&adidx=18",
+"clickUrl": "https://mlog.dianping.com/api/cpv/billing?act=2&ad_cj=SfWCkEXyql8jdrjVtiDZhRqbIr5c0s83VCZqHkvfYExjXZpuMB2w6vhaYgOuLqX_rnEBNYgcgZknQpXl_SLSQuV6y9wN8hZppJgggU5-Rqdiut8h3Xuj0PoETVRJVX6-mV0n97Buv7fcXLuzgJD-b2WTUGSHuwysO0agHRwxVgKfTj7nU41xjZjQ6RmZcEzTm4-VOMb5FWoNp9THquzIeyJadKDPtNjNxE0YLBv8in-QPyhfKimz6nG4lbAXqBCM3Sze58U2gVAyBBEnpAcRSyCTbyL29RzAiwmwCRfS_fscs4IDr1GqinvXwj1wOT3xdJF0U_q110_jBExgmqr45uwwE2lxGjDUQ_CyrLaHpKHTWsPJBFOdKHjBbqwMF8CW_wFiWpBLxXpMxS3kXs6vrkZVab_yT3Nsl8gvs-4kiAQOB-mK9AxpMRB2STh-5f3lcF-8GAK0WOHl2prZc44i1UllWJlLVlb-V-OoJnI4kLElTg0ljW6MZDkYuaPkNzbxOGoMFQB5kBOmISyUt2jtBex4d-Hu01fPkC_Xt9GxRIWq6wjjjBV3hLNbm8Aj5TxlbNhB2dEX5b1FDmi-6HDL4HxiYoUFcDYn63D984_QUEdJe7hCaC0NnTQJcb2P7wHOUAHI6ech-W6XlmlPlSl39o2Fuczd_ZOvEGewVdxXAoUCGvHWLIRZv4plrGtj3neQhieLXfQ63duR-P6GB0WNF8PY8gFtgxgDfX_RNkeQQBpJ-NuOTPFmAYkKAbROa4Gn4m0TvtLTq92xrH_gIXTTkqNZj3dZI7PzwPAInPnehOOdaL9X5wnfh23cPwBkzFk1pTzj5EkCbJkOfsd2EtGoFN7AjQKeplSiaSX1rDlukzKhyMeNvUYYRNXK_2OskUy-vK_Q&sver=2&ad_v=1&ad_ci=SfWCkEXgduNz0EaoXdHeXVeYSaCWK8cpe-yWjbvmzxTg063U5XGFS5kuoY5MslV60rWLDjHuzEG27GXGXX2D6ZWDhQN1TmBIpsnY&adidx=18",
+"fixedAdPosition": false
+},
+"historyCouponCount": 1037,
+"posdescr": "近国际会展中心 · 深圳国际会展中心",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 565081029,
+"shopIdStr": "565081029",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "1000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "47分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 209,
+"notRoundedOriginalPrice": 20900,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠42",
+"priceExtModel": {
+"text": "优惠42",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "300条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近地铁",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "新开业/新装修",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "共享充电宝",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "47分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 354,
+"poiExtendsInfosDesc": [
+"2022年开业"
+],
+"commentCount": 300,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "信用卡结算服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fa35bedaf4fc4a1586661b213cd3c565649.png",
+"attrId": 101007
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近地铁"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E8%AF%BA%E5%8F%AF%E6%96%AF%E7%99%BB%E7%B2%BE%E5%93%81%E9%85%92%E5%BA%97%E5%BC%8F%E5%85%AC%E5%AF%93%EF%BC%88%E6%B7%B1%E5%9C%B3%E5%9B%BD%E9%99%85%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83%E5%BA%97%EF%BC%89&poiLat=22.69829&poiLng=113.78194&poiId=1507189300448546866&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车6.9公里,约16分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距国展地铁站-C1口步行750米,约9分钟"
+}
+],
+"addrWithoutAdministrativeArea": "福海街道锦程路会展湾水岸广场7栋3楼312号"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+7
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E8%AF%BA%E5%8F%AF%E6%96%AF%E7%99%BB%E7%B2%BE%E5%93%81%E9%85%92%E5%BA%97%E5%BC%8F%E5%85%AC%E5%AF%93%28%E6%B7%B1%E5%9C%B3%E5%9B%BD%E9%99%85%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83%E5%BA%97%29&dlat=22.69829&dlon=113.78194&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p1.meituan.net/w.h/tdchotel/c014a95f33d475e0f96229af7439e066382003.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"疫情安心退",
+"延迟退房"
+],
+"fodderInfo": [
+{
+"boothId": 1000,
+"description": "精选皇冠酒店query词",
+"url": "http://p0.meituan.net/hotelnoah/2134234f0ebd4acd817e61d6445a2f59.png"
+},
+{
+"boothId": 9003029,
+"description": "安心退中高风险",
+"url": "http://p1.meituan.net/hotelnoah/d67cc0f5ff704e71a7886512d1ee8786.png"
+}
+],
+"showType": "hotel",
+"addr": "宝安区航城街道三围社区航空路22号（近宝安机场、固戍地铁站）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 192839757,
+"poiIdStr": "192839757",
+"realPoiId": 192839757,
+"realPoiIdStr": "192839757",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29503,
+"areaName": "宝安机场/福永",
+"cates": "20,20606,20769,20963,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "星航恒悦酒店(深圳宝安国际机场T3航站楼店)",
+"hasPackage": false,
+"lat": 22.609775,
+"lng": 113.849193,
+"markNumbers": 6199,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 160,
+"notRoundedLowestPrice": 16000,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 49499,
+"posdescr": "近固戍地铁站 · 宝安机场/福永",
+"useTime": "",
+"brandId": 0,
+"avgScore": 5,
+"avgScoreDesc": "超棒",
+"shopId": 129929037,
+"shopIdStr": "129929037",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "3分钟前有人预订",
+"scoreIntro": "5.0分 很好",
+"originalPriceDesc": "",
+"originalPrice": 160,
+"notRoundedOriginalPrice": 16000,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"commentsCountDesc": "6199条评论",
+"poiTagList": [
+{
+"text": "疫情安心退",
+"textColor": "#008489",
+"backgroundColor": "",
+"borderColor": "#008489",
+"imgUrl": "https://p1.meituan.net/travelcube/020e909f29582073c74d843d6656e9c85747.png",
+"imgWidth": 198,
+"imgHeight": 42,
+"tagGradientColors": []
+},
+{
+"text": "延迟退房",
+"textColor": "#004099",
+"backgroundColor": "",
+"borderColor": "#BFCFE5",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费接站",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "商务出行",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "共享充电宝",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "3分钟前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 365,
+"poiExtendsInfosDesc": [
+"2019年装修"
+],
+"commentCount": 6199,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "无接触送餐",
+"iconUrl": "https://p0.meituan.net/travelcube/fed306e6049580f9528d88a62e8d8f5b1577.png",
+"attrId": 101625
+},
+{
+"attrDesc": "提供口罩",
+"iconUrl": "https://p0.meituan.net/travelcube/0545375d696a19d3277f0db8725525d61768.png",
+"attrId": 101623
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "无接触送物",
+"iconUrl": "https://p1.meituan.net/travelcube/7d05e3ca43f850559efb56cfb9ce69dc3022.png",
+"attrId": 101626
+},
+{
+"attrDesc": "有收费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "客房WiFi免费",
+"iconUrl": "https://p1.meituan.net/travelcube/0195598410d503f125c8777df84b4d6c2053.png",
+"attrId": 102051
+},
+{
+"attrDesc": "行李寄存",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "接机服务",
+"iconUrl": "https://p0.meituan.net/travelcube/0e21e407e855e4ce9178ed3fdf41ed991688.png",
+"attrId": 102033
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "送餐服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fed306e6049580f9528d88a62e8d8f5b1577.png",
+"attrId": 101040
+},
+{
+"attrDesc": "信用卡结算服务",
+"iconUrl": "https://p0.meituan.net/travelcube/fa35bedaf4fc4a1586661b213cd3c565649.png",
+"attrId": 101007
+},
+{
+"attrDesc": "咖啡厅",
+"iconUrl": "https://p1.meituan.net/travelcube/085cc051a1a0b01a5cad1c24204400f61487.png",
+"attrId": 101096
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"公益商家",
+"近核酸点"
+],
+"scoreInfo": "5.0分 很好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=%E6%98%9F%E8%88%AA%E6%81%92%E6%82%A6%E9%85%92%E5%BA%97%EF%BC%88%E6%B7%B1%E5%9C%B3%E5%AE%9D%E5%AE%89%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BAT3%E8%88%AA%E7%AB%99%E6%A5%BC%E5%BA%97%EF%BC%89&poiLat=22.609775&poiLng=113.849193&poiId=1197828670186594477&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您驾车3.2公里,约16分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距固戍地铁站-D口步行1.2公里,约15分钟"
+}
+],
+"addrWithoutAdministrativeArea": "航城街道三围社区航空路22号(近宝安机场、固戍地铁站)"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"videoUrl": "http://s3plus.meituan.net/v1/mss_66f77a3644464b589f2f061a13c82013/hoteltranscoding/narrowband-hotel-28d9af60-5276-11ec-a803-0a580a175647-594108",
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+6
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=%E6%98%9F%E8%88%AA%E6%81%92%E6%82%A6%E9%85%92%E5%BA%97%28%E6%B7%B1%E5%9C%B3%E5%AE%9D%E5%AE%89%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BAT3%E8%88%AA%E7%AB%99%E6%A5%BC%E5%BA%97%29&dlat=22.609775&dlon=113.849193&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"rankingRuleInfo": {
+"rankingRulePoiStrategy": "TrafficShapingWeightAdjust_0.011986_0.032362_192839757_1.700000"
+},
+"addPrice": false,
+"highStar": false
+},
+{
+"historySaleCount": "5000+消费",
+"frontImg": "http://p0.meituan.net/w.h/tdchoteldark/7cb49ef645bdbba88a7cd1f7109c73db3503535.jpg",
+"isCooperated": 1,
+"styles": {
+"poiLastOrderTime": 2,
+"scoreIntro": 1,
+"poiSaleAndSpanTag": 2,
+"poiRecommendTag": 2
+},
+"poiAttrTagList": [
+"近核酸点",
+"免费停车场"
+],
+"fodderInfo": [],
+"showType": "hotel",
+"addr": "坪山区深汕路195号乐廷居建材广场（近飞东村、六联酒店公交站牌）",
+"cityName": "深圳",
+"cityId": 30,
+"poiid": 2444077,
+"poiIdStr": "2444077",
+"realPoiId": 2444077,
+"realPoiIdStr": "2444077",
+"realRoomId": 0,
+"cooperationInfo": "",
+"areaId": 29521,
+"areaName": "坪山高铁站",
+"cates": "20,20606,20769,20995,21019,79,20607",
+"hasGroup": false,
+"zlSourceType": 1,
+"sourceType": 1,
+"hourRoomSpan": 0,
+"name": "7天酒店·深圳坪山店",
+"hasPackage": false,
+"lat": 22.696159,
+"lng": 114.345849,
+"markNumbers": 1392,
+"dist": -1,
+"flagshipFlag": false,
+"lowestPrice": 169,
+"notRoundedLowestPrice": 16900,
+"dayRoomSpan": 1,
+"hotelStar": "经济型",
+"hotelAppointmentExtType": 2,
+"withoutAds": true,
+"historyCouponCount": 28332,
+"posdescr": "近坪山益田假日世界 · 坪山高铁站",
+"useTime": "",
+"brandId": 23775,
+"avgScore": 4.1,
+"shopId": 5151153,
+"shopIdStr": "5151153",
+"roomType": "",
+"serviceDesc": [],
+"poiSaleAndSpanTag": "5000+消费",
+"poiRecommendTag": "经济型",
+"poiLastOrderTime": "1小时前有人预订",
+"scoreIntro": "4.1分 好",
+"originalPriceDesc": "",
+"originalPrice": 199,
+"notRoundedOriginalPrice": 19900,
+"showOriginalPrice": false,
+"priceType": 1,
+"taxFee": 0,
+"priceExtInfo": "优惠30",
+"priceExtModel": {
+"text": "优惠30",
+"textColor": "#FFFFFF",
+"startBackgroundColor": "#FF5452",
+"endBackgroundColor": "#FF5762",
+"icon": "https://p0.meituan.net/travelcube/49c38e6fd5c177f4a9ca9de96e0d2734782.png"
+},
+"commentsCountDesc": "1392条评论",
+"poiTagList": [
+{
+"text": "近核酸点",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "免费停车场",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgUrl": "",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+},
+{
+"text": "商务出行",
+"textColor": "#666666",
+"backgroundColor": "",
+"borderColor": "#CCCCCC",
+"imgWidth": 0,
+"imgHeight": 0,
+"tagGradientColors": []
+}
+],
+"informationA": [
+{
+"text": "1小时前有人预订",
+"type": 0
+}
+],
+"recommendInfo": {
+"mustLive": false
+},
+"ugcInfo": "",
+"poiType": 0,
+"recommedReason": "",
+"forward": {
+"highHotelStar": false,
+"albumCount": 94,
+"poiExtendsInfosDesc": [
+"2014年装修"
+],
+"commentCount": 1392,
+"posdec": "",
+"serviceIcons": [
+{
+"attrDesc": "无接触送餐",
+"iconUrl": "https://p0.meituan.net/travelcube/fed306e6049580f9528d88a62e8d8f5b1577.png",
+"attrId": 101625
+},
+{
+"attrDesc": "前台消毒洗手液",
+"iconUrl": "https://p0.meituan.net/travelcube/0e81eb322d46ceda2d988d1a7c8480241459.png",
+"attrId": 101624
+},
+{
+"attrDesc": "有免费停车场",
+"iconUrl": "https://p0.meituan.net/travelcube/b727c2c9174229155c65ba5007ec43161957.png",
+"attrId": 102031
+},
+{
+"attrDesc": "行李寄存",
+"iconUrl": "https://p0.meituan.net/travelcube/8d2498d51447dcffeee8f6ad23ed20b01102.png",
+"attrId": 102035
+},
+{
+"attrDesc": "叫醒服务",
+"iconUrl": "https://p0.meituan.net/travelcube/051527fc5fe5f0adcbfc5d845ebef9512330.png",
+"attrId": 101038
+},
+{
+"attrDesc": "空调",
+"iconUrl": "https://p0.meituan.net/travelcube/665da78d9a1d5c69db6b713bd289efdc1082.png",
+"attrId": 102050
+}
+],
+"serviceTagList": [
+"近核酸点",
+"免费停车场"
+],
+"scoreInfo": "4.1分 好",
+"carEntranceIcon": "https://p1.meituan.net/travelcube/f3fd87298a0f21f9d5d5890c3869280a1531.png",
+"mapEntranceIcon": "https://p0.meituan.net/travelcube/4c8b25c9551702225a2af318e89876ee2059.png",
+"carEntranceURL": "imeituan://www.meituan.com/cab/home?qcs_channel=104002&poiName=7%E5%A4%A9%E9%85%92%E5%BA%97%C2%B7%E6%B7%B1%E5%9C%B3%E5%9D%AA%E5%B1%B1%E5%BA%97&poiLat=22.696159&poiLng=114.345849&poiId=1197828673315573920&sourceStr=00-02-03-10",
+"positionDescList": [
+{
+"iconUrl": "https://p0.meituan.net/travelcube/e1bc5f4df0de55307133fdb47b6c5c2d1678.png@36w_36h_80q",
+"text": "距您步行400米,约5分钟"
+},
+{
+"iconUrl": "https://p1.meituan.net/travelcube/0e8bf65b542a5a4d21f7f78f69c6125d1095.png@36w_36h_80q",
+"text": "距坪山站驾车3公里,约6分钟"
+}
+],
+"addrWithoutAdministrativeArea": "深汕路195号乐廷居建材广场(近飞东村、六联酒店公交站牌)"
+},
+"dpSuperHotel": false,
+"merchantMember": false,
+"tagRelatedGoodsList": [],
+"collectionFlag": false,
+"panoramaAvailable": false,
+"block": false,
+"activeAvailable": true,
+"cellType": "酒店",
+"hide": false,
+"spuId": 0,
+"posdescrDelimiterIdx": [
+9
+],
+"routeUrl": "imeituan://www.meituan.com/mapchannel/route?mapsource=mapsearch_hotel&sname=%E5%B8%82%E4%B8%AD%E5%BF%83&slat=22.5470009&slon=114.0859451&dname=7%E5%A4%A9%E9%85%92%E5%BA%97%C2%B7%E6%B7%B1%E5%9C%B3%E5%9D%AA%E5%B1%B1%E5%BA%97&dlat=22.696159&dlon=114.345849&mode=driving",
+"bestPriceDesc": "每间每晚",
+"promotionSubTitle": "9月10日-9月11日 1晚",
+"sceneId": 0,
+"isAddPrice": false,
+"itemType": "poi",
+"isHighStar": false,
+"addPrice": false,
+"highStar": false
+}
+],
+"earth_map_txt": "符合条件酒店较少，缩小地图可在更大范围内查找~",
+"feedPos": 9,
+"travelRecommendPos": 9,
+"bizArea": {},
+"serviceGuaranteeImgUrl": "http://p1.meituan.net/codeman/a11d72e707fe9d2e67c850a8a47be4df9229.png",
+"rankExData": {},
+"phoenixRecommendPos": 9,
+"showPhoenixRecommend": false,
+"voucher": {},
+"hotelRankEntryItemList": [],
+"bannerTemplateInfoList": [],
+"notAccurateLocationScene": 0,
+"showWalkDrive": 0,
+"codeOfTravelScene": 0,
+"mapConfig": {},
+"rankArea": {},
+"recBannerPos": [],
+"globalId": "",
+"isLandMarkIntention": false
+},
+"ct_pois_map": [],
+"ct_pois": [],
+"propagateData": [],
+"conId": "2725883496145838694",
+"query_ids": [],
+"adPointIds": {
+"request_id": "6274260315927142497",
+"global_id": "2725883496145838694"
+}
+}

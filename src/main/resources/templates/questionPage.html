@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh_CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Question Info</title>
+    <link rel="stylesheet" th:href="@{/static/layui/css/layui.css}" media="all">
+    <link rel="stylesheet" th:href="@{/static/admin/style.css}" media="all">
+</head>
+<body>
+<style type="text/css">
+    .title {
+        margin: 0;
+        text-align: center;
+        color: #454545;
+        font-style: italic;
+        font-size: 50px;
+    }
+    .subtitle {
+        margin: 0;
+        text-align: center;
+        color: rgb(160, 160, 160);
+        font-size: 20px;
+    }
+</style>
+
+<h1 class="title" style="margin-top: 50px;">StackOverflow Question Detail</h1>
+<h2 class="subtitle">Search by "search?order=desc&sort=votes&tagged=java&site=stackoverflow", Sample num: 997</h2>
+
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body" style="padding: 15px;">
+            <form class="layui-form layui-form-pane" action="">
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Question</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="count" th:value="${obj?.title}" lay-verify="required" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Questioner</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="count" th:value="${obj?.questioner}" lay-verify="required" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">QScore</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.questionScore}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Answer </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="count" th:value="${obj?.answerer}" lay-verify="required" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">AScore</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.answerScore}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">ViewCnt</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.viewCnt}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">AnswerCnt</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.answerCnt}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Link</label>
+                    <span class="layui-btn layui-btn-sm layui-bg-blue" lay-event="querySave">
+                        <a th:href="${obj?.link}" target="_blank">
+                                <i class="layui-icon">&#xe64c;</i>Link
+                        </a>
+                    </span>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

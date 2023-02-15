@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Repo</title>
+</head>
+<body>
+<div style="width: 100%;height: 600px;" id="jkjkjk"></div>
+<!--<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<script th:src="@{/static/echarts/echarts.js}"></script>
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>-->
+<script th:src="@{/static/jquery/jquery.js}"></script>
+
+<script>
+    var myChart = echarts.init(document.getElementById('jkjkjk'))
+    var KSMC = [100, 82, 80, 70, 65, 66, 60,54, 50, 42, 40]
+    var option = {
+        color: ['#3398DB'],
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            }
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis: [
+            {
+                type: 'value'
+            }
+        ],
+        dataZoom: [//滑动条
+            {
+                yAxisIndex: 0,//这里是从X轴的0刻度开始
+                show: false,//是否显示滑动条，不影响使用
+                type: 'slider', // 这个 dataZoom 组件是 slider 型 dataZoom 组件
+                startValue: 0, // 从头开始。
+                endValue: 6  // 一次性展示6个。
+            }
+        ],
+        yAxis: [
+            {
+                type: 'category',
+                inverse:true, //是否是反向坐标轴
+                data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun','测试','测试1','测试2','测试3'],
+            }
+        ],
+        series: [
+            {
+                name: '直接访问',
+                type: 'bar',
+                barWidth: '60%',
+                data: KSMC
+            }
+        ]
+    };
+    // myChart.setOption(option);
+    //通过定时器的方式刷新，改变statrValue，endValue
+    setInterval(function () {
+        // 每次向后滚动一个，最后一个从头开始。
+        if (option.dataZoom[0].endValue == 6 ) {
+            option.dataZoom[0].endValue = 3;
+            option.dataZoom[0].startValue = 0;
+        }
+        else {
+            option.dataZoom[0].endValue = option.dataZoom[0].endValue + 1;
+            option.dataZoom[0].startValue = option.dataZoom[0].startValue + 1;
+        }
+        myChart.setOption(option);
+    }, 1500);
+</script>
+
+
+</body>
+</html>

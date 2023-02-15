@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Good Question</title>
+    <link rel="stylesheet" th:href="@{/static/layui/css/layui.css}" media="all">
+    <link rel="stylesheet" th:href="@{/static/admin/style.css}" media="all">
+    <script type="text/html" id="indexTpl">
+        {{d.LAY_TABLE_INDEX+1}}
+    </script>
+</head>
+<style>
+    .layui-table-cell {
+        line-height: 20px;
+        vertical-align: middle;
+        height: auto;
+        overflow: visible;
+        text-overflow: inherit;
+        white-space: normal;
+    }
+</style>
+
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">收藏列表</div>
+                <div class="layui-card-body">
+                    <table class="layui-hide" id="main-table" lay-filter="main-table"></table>
+                    <script type="text/html" id="barDemo">
+                        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">Del</a>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script th:src="@{/static/layui/layui.js}"></script>
+<script>
+    layui.use(['table','form'],function () {
+        var $ = layui.$;
+        var table = layui.table;
+        table.render({
+            elem: '#main-table',
+            height: 650,
+            url: '/githubrepo/repofavourite/list',
+            method: 'POST',
+            page: false,
+            id: 'table-load',
+            toolbar: '#toolbarDemo',
+            cols: [
+                [
+                    {title: '序号',templet: '#indexTpl',width: 60,align:'center'},
+                    {field:'name',title:'repoName',algin:'center',width:200},
+                    {field:'star',title:'star',algin:'center',width:100},
+                    {field:'forks',title:'forks',algin:'center',width:100},
+                    {title:'操作',align:'center',toolbar:'#barDemo',fixed:'right'}
+                ]
+            ]
+        });
+
+        //监听编辑、删除
+        table.on('tool(main-table)',function (obj) {
+            var data = obj.data;
+            console.log('data=====================')
+            console.log(data);
+            switch (obj.event) {
+                case 'del'://可以
+                    layer.confirm('确认要删除吗？',function (index) {
+                        $.ajax({
+                            url: '/githubrepo/repofavourite/del?name=' +data.name,
+                            data: null,
+                            async: false,
+                            cache: false,
+                            success: function (str) {
+                                table.reload('table-load');
+                                layer.msg(str.msg,{icon:str.icon,anim:str.anim});
+                            }
+                        });
+                    })
+                    break;
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

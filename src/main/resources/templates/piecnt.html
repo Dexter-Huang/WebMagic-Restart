@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Topic</title>
+</head>
+<style type="text/css">
+    .title {
+        margin: 0;
+        text-align: center;
+        color: #454545;
+        font-style: italic;
+        font-size: 50px;
+    }
+    .subtitle {
+        margin: 0;
+        text-align: center;
+        color: rgb(160, 160, 160);
+        font-size: 15px;
+    }
+</style>
+<body>
+<h1 class="title" style="margin-top: 50px;">Github Repos'Creation Per Month</h1>
+<h2 class="subtitle">Search by "search/repositories?q=language:java+created:yyyy-mm..yyyy-mm&sort=stars&order=desc", Sample num: 161</h2>
+<!-- 为 ECharts 准备一个定义了宽高的 DOM，必须定义宽高才可以显示 -->
+<div id="pie_months" style="width: 80vw; height: 700px; margin: 0 auto;"></div>
+<div id="wave_months" style="width: 100%;height: 800px;" ></div>
+<div id="wave_months2" style="width: 100%;height: 800px;" ></div>
+<div id="wave_months3" style="width: 100%;height: 800px;" ></div>
+
+<!--<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<script th:src="@{/static/echarts/echarts.js}"></script>
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>-->
+<script th:src="@{/static/jquery/jquery.js}"></script>
+<script type="text/javascript">
+
+    var pie_stars_echart = echarts.init(document.getElementById("pie_months"));
+    var wave_echart=echarts.init(document.getElementById("wave_months"));
+    var wave_echart2=echarts.init(document.getElementById("wave_months2"));
+    var wave_echart3=echarts.init(document.getElementById("wave_months3"));
+    // 指定图表的配置项和数据
+    var y2009=[],y2010=[],y2011=[],y2012=[],y2013=[],y2014=[],y2015=[],y2016=[],y2017=[],y2018=[],
+        y2019=[],y2020=[],y2021=[],y2022=[];
+    var yy2009=[],yy2010=[],yy2011=[],yy2012=[],yy2013=[],yy2014=[],yy2015=[],yy2016=[],yy2017=[],yy2018=[],
+        yy2019=[],yy2020=[],yy2021=[],yy2022=[];
+    var labels = [
+        'January', 'February', 'March', 'April', 'may', 'June', 'July', 'August', 'September', 'October', 'November', 'December'
+    ]
+    $.ajax({
+        type:"get",
+        url:"/piecnt/pielist",
+        cache:false,
+        success:function (res) {
+            console.log(res);
+            var data=res.data;
+            for(var i=0;i<12;i++){
+                y2009.push({value:data[i].rate,name:labels[i]});yy2009.push(data[i].repoCnt);
+                y2010.push({value:data[i+12].rate,name:labels[i]});yy2010.push(data[i+12].repoCnt);
+                y2011.push({value:data[i+12*2].rate,name:labels[i]});yy2011.push(data[i+12*2].repoCnt);
+                y2012.push({value:data[i+12*3].rate,name:labels[i]});yy2012.push(data[i+12*3].repoCnt);
+                y2013.push({value:data[i+12*4].rate,name:labels[i]});yy2013.push(data[i+12*4].repoCnt);
+                y2014.push({value:data[i+12*5].rate,name:labels[i]});yy2014.push(data[i+12*5].repoCnt);
+                y2015.push({value:data[i+12*6].rate,name:labels[i]});yy2015.push(data[i+12*6].repoCnt);
+                y2016.push({value:data[i+12*7].rate,name:labels[i]});yy2016.push(data[i+12*7].repoCnt);
+                y2017.push({value:data[i+12*8].rate,name:labels[i]});yy2017.push(data[i+12*8].repoCnt);
+                y2018.push({value:data[i+12*9].rate,name:labels[i]});yy2018.push(data[i+12*9].repoCnt);
+                y2019.push({value:data[i+12*10].rate,name:labels[i]});yy2019.push(data[i+12*10].repoCnt);
+                y2020.push({value:data[i+12*11].rate,name:labels[i]});yy2020.push(data[i+12*11].repoCnt);
+                y2021.push({value:data[i+12*12].rate,name:labels[i]});yy2021.push(data[i+12*12].repoCnt);
+            }
+            y2022.push({value:data[156].rate,name:labels[0]});yy2022.push(data[156].repoCnt);
+            y2022.push({value:data[157].rate,name:labels[1]});yy2022.push(data[157].repoCnt);
+            y2022.push({value:data[158].rate,name:labels[2]});yy2022.push(data[158].repoCnt);
+            y2022.push({value:data[159].rate,name:labels[3]});yy2022.push(data[159].repoCnt);
+            y2022.push({value:data[160].rate,name:labels[4]});yy2022.push(data[160].repoCnt);
+
+
+            pie_stars_echart.setOption( {
+                title:[
+                    {text:'2009',left:'9%',top:'32%',textAlign:'center'},
+                    {text:'2010',left:'24%',top:'32%',textAlign:'center'},
+                    {text:'2011',left:'39%',top:'32%',textAlign:'center'},
+                    {text:'2012',left:'54%',top:'32%',textAlign:'center'},
+                    {text:'2013',left:'69%',top:'32%',textAlign:'center'},
+
+                    {text:'2014',left:'16%',top:'52%',textAlign:'center'},
+                    {text:'2015',left:'31%',top:'52%',textAlign:'center'},
+                    {text:'2016',left:'46%',top:'52%',textAlign:'center'},
+                    {text:'2017',left:'61%',top:'52%',textAlign:'center'},
+                    {text:'2018',left:'76%',top:'52%',textAlign:'center'},
+
+                    {text:'2019',left:'9%',top:'72%',textAlign:'center'},
+                    {text:'2020',left:'24%',top:'72%',textAlign:'center'},
+                    {text:'2021',left:'39%',top:'72%',textAlign:'center'},
+                    {text:'2022',left:'54%',top:'72%',textAlign:'center'}
+
+                ],
+                tooltip: {
+                    trigger: 'item'
+                },
+                legend: {
+                    top: '5%',
+                    left: 'center'
+                },
+                series: [
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['10%','25%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10,borderColor: '#fff',borderWidth: 2},
+                        label: {show: false,position: 'center'},
+                        emphasis: {label: {show: true,fontSize: '12',fontWeight: 'bold',formatter: '2009 {b}: {d}%'}},
+                        labelLine: {show: false},
+                        data: y2009
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['25%','25%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10,borderColor: '#fff',borderWidth: 2},
+                        label: {show: false,position: 'center'},
+                        emphasis: {label: {show: true,fontSize: '13',fontWeight: 'bold',formatter: '2010 {b}: {d}%'}},
+                        labelLine: {show: false},
+                        data: y2010
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['40%','25%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2011 {b}: {d}%'}},
+                        labelLine: {show: false},
+                        data: y2011
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['55%','25%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2012 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2012
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['70%','25%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '12', fontWeight: 'bold', formatter: '2013 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2013
+                    },
+                    /////////////////////
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['17%','45%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2014 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2014
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['32%','45%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2015 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2015
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['47%','45%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2016 {b}: {d}%'},
+                        },
+                        labelLine: {show: false},
+                        data: y2016
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['62%','45%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '12', fontWeight: 'bold', formatter: '2017 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2017
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['77%','45%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2018 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2018
+                    },
+                    ////////////////////
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['10%','65%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2019 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2019
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['25%','65%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2020 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2020
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['40%','65%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2021 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2021
+                    },
+                    {
+                        // name: 'Access From',
+                        type: 'pie',
+                        radius: ['10%', '15%'],
+                        center:['55%','65%'],
+                        avoidLabelOverlap: false,
+                        itemStyle: {borderRadius: 10, borderColor: '#fff', borderWidth: 2},
+                        label: {show: false, position: 'center'},
+                        emphasis: {label: {show: true, fontSize: '13', fontWeight: 'bold', formatter: '2022 {b}: {d}%'},},
+                        labelLine: {show: false},
+                        data: y2022
+                    }
+                ]
+            });
+
+            wave_echart.setOption({
+                color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+                title: {text: '2009~2013 Github Repo Creation'},
+                tooltip: {trigger: 'axis', axisPointer: {type: 'cross', label: {backgroundColor: '#6a7985'}}},
+                legend: {data: ['2009', '2010', '2011', '2012', '2013']},
+                toolbox: {feature: {saveAsImage: {}}},
+                grid: {left: '3%', right: '4%', bottom: '3%', containLabel: true},
+                xAxis: [{type: 'category', boundaryGap: false, data: labels}],
+                yAxis: [{type: 'value'}],
+                series: [
+                    {
+                        name: '2009',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(128, 255, 165)'},
+                                {offset: 1, color: 'rgb(1, 191, 236)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2009
+                    },
+                    {
+                        name: '2010',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(0, 221, 255)'},
+                                {offset: 1, color: 'rgb(77, 119, 255)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2010
+                    },
+                    {
+                        name: '2011',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(55, 162, 255)'},
+                                {offset: 1, color: 'rgb(116, 21, 219)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2011
+                    },
+                    {
+                        name: '2012',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(255, 0, 135)'},
+                                {offset: 1, color: 'rgb(135, 0, 157)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2012
+                    },
+                    {
+                        name: '2013',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        label: {show: true, position: 'top'},
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(255, 191, 0)'},
+                                {offset: 1, color: 'rgb(224, 62, 76)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2013
+                    }
+                ]
+            })
+
+            wave_echart2.setOption({
+                color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+                title: {text: '2014~2018 Github Repo Creation'},
+                tooltip: {trigger: 'axis', axisPointer: {type: 'cross', label: {backgroundColor: '#6a7985'}}},
+                legend: {data: ['2014', '2015', '2016', '2017', '2018']},
+                toolbox: {feature: {saveAsImage: {}}},
+                grid: {left: '3%', right: '4%', bottom: '3%', containLabel: true},
+                xAxis: [{type: 'category', boundaryGap: false, data: labels}],
+                yAxis: [{type: 'value'}],
+                series: [
+                    {
+                        name: '2014',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(128, 255, 165)'},
+                                {offset: 1, color: 'rgb(1, 191, 236)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2014
+                    },
+                    {
+                        name: '2015',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(0, 221, 255)'},
+                                {offset: 1, color: 'rgb(77, 119, 255)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2015
+                    },
+                    {
+                        name: '2016',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(55, 162, 255)'},
+                                {offset: 1, color: 'rgb(116, 21, 219)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2016
+                    },
+                    {
+                        name: '2017',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(255, 0, 135)'},
+                                {offset: 1, color: 'rgb(135, 0, 157)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2017
+                    },
+                    {
+                        name: '2018',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        label: {show: true, position: 'top'},
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(255, 191, 0)'},
+                                {offset: 1, color: 'rgb(224, 62, 76)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2018
+                    }
+                ]
+            })
+
+            wave_echart3.setOption({
+                color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+                title: {text: '2018~2022 Github Repo Creation'},
+                tooltip: {trigger: 'axis', axisPointer: {type: 'cross', label: {backgroundColor: '#6a7985'}}},
+                legend: {data: ['2018','2019', '2020', '2021', '2022']},
+                toolbox: {feature: {saveAsImage: {}}},
+                grid: {left: '3%', right: '4%', bottom: '3%', containLabel: true},
+                xAxis: [{type: 'category', boundaryGap: false, data: labels}],
+                yAxis: [{type: 'value'}],
+                series: [
+                    {
+                        name: '2018',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(128, 255, 165)'},
+                                {offset: 1, color: 'rgb(1, 191, 236)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2018
+                    },
+                    {
+                        name: '2019',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(0, 221, 255)'},
+                                {offset: 1, color: 'rgb(77, 119, 255)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2019
+                    },
+                    {
+                        name: '2020',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(55, 162, 255)'},
+                                {offset: 1, color: 'rgb(116, 21, 219)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2020
+                    },
+                    {
+                        name: '2021',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(255, 0, 135)'},
+                                {offset: 1, color: 'rgb(135, 0, 157)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2021
+                    },
+                    {
+                        name: '2022',
+                        type: 'line',
+                        stack: 'Total',
+                        smooth: true,
+                        lineStyle: {width: 0},
+                        showSymbol: false,
+                        label: {show: true, position: 'top'},
+                        areaStyle: {
+                            opacity: 0.8,
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {offset: 0, color: 'rgb(255, 191, 0)'},
+                                {offset: 1, color: 'rgb(224, 62, 76)'}
+                            ])
+                        },
+                        emphasis: {focus: 'series'},
+                        data: yy2022
+                    }
+                ]
+            })
+        }
+    })
+    window.onresize=wave_echart.resize;
+    window.onresize=wave_echart2.resize;
+    window.onresize=wave_echart3.resize;
+    window.onresize = pie_stars_echart.resize;
+</script>
+
+
+</body>
+</html>

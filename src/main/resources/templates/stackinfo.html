@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Topic</title>
+    <link rel="stylesheet" th:href="@{/static/layui/css/layui.css}" media="all">
+    <link rel="stylesheet" th:href="@{/static/admin/style.css}" media="all">
+    <script type="text/html" id="indexTpl">
+        {{d.LAY_TABLE_INDEX+1}}
+    </script>
+</head>
+<style type="text/css">
+    .layui-table-cell {
+        line-height: 20px;
+        vertical-align: middle;
+        height: auto;
+        overflow: visible;
+        text-overflow: inherit;
+        white-space: normal;
+    }
+
+    .title {
+        margin: 0;
+        text-align: center;
+        color: #454545;
+        font-style: italic;
+        font-size: 50px;
+    }
+
+    .ltitle {
+        margin: 0;
+        text-align: center;
+        color: #454545;
+        font-style: italic;
+        font-size: 30px;
+    }
+    .subtitle {
+        margin: 0;
+        text-align: center;
+        color: rgb(160, 160, 160);
+        font-size: 20px;
+    }
+</style>
+<body>
+<h1 class="title" style="margin-top: 50px;">StackOverflow Best Q&A</h1>
+<h2 class="subtitle">Search by "search?order=desc&sort=votes&tagged=java&site=stackoverflow", Sample num: 997</h2>
+<!-- 为 ECharts 准备一个定义了宽高的 DOM，必须定义宽高才可以显示 -->
+<h1 class="ltitle" >Highest Score In Questioners</h1>
+<div style="width: 100%;height: 600px;" id="questioner"></div>
+<h1 class="ltitle" >Highest Score In Answerers</h1>
+<div style="width: 100%;height: 600px;" id="answerer"></div>
+<h1 class="ltitle" >Most Answered Questions</h1>
+<!--<div style="width: 100%;height: 600px;" id="answercnt"></div>-->
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">StackOverflow Questions列表</div>
+                <div class="layui-card-body">
+                    <table class="layui-hide" id="main-table" lay-filter="main-table"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1 class="ltitle" >Most Viewed Questions</h1>
+<!--<div style="width: 100%;height: 600px;" id="viewcnt"></div>-->
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">StackOverflow Questions列表</div>
+                <div class="layui-card-body">
+                    <table class="layui-hide" id="main-table2" lay-filter="main-table"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/static/echarts/echarts.js}"></script>
+<script th:src="@{/static/jquery/jquery.js}"></script>
+<script th:src="@{/static/layui/layui.js}"></script>
+<script type="text/javascript">
+    var questionerChart = echarts.init(document.getElementById('questioner'));
+    var answererChart = echarts.init(document.getElementById('answerer'));
+    // 指定图表的配置项和数据
+    var questionernames=[],questionerscore=[];
+    $.ajax({
+        type:"get",
+        url:"/stackinfo/questioner",
+        cache:false,
+        success:function (res) {
+            var data=res.data;
+            // console.log(data);
+            for(var i=0;i<61;i++){
+                questionernames.push(data[i].name);
+                questionerscore.push(data[i].score);
+            }
+            questionerChart.setOption({
+                xAxis:{
+                    data:questionernames,
+                    axisLabel: {
+                        interval:0,
+                        rotate:40
+                    }
+                },
+                yAxis:{
+                    type: 'value'
+                },
+                tooltip: {},
+                legend: {
+                    data:['Questioner']
+                },
+                series:[
+                    {
+                        name: 'Questioner',
+                        data:questionerscore,
+                        // type:'bar'
+                        type: 'pictorialBar',
+                        barGap: '80%',
+                        barCategoryGap: '-70%',
+                        //symbol: 'path://M0,10 L10,10 L5,0 L0,10 z',
+                        symbol: 'path://M0,10 L10,10 C5.5,10 5.5,5 5,0 C4.5,5 4.5,10 0,10 z',
+                        itemStyle: {
+                            opacity: 0.5,
+                            normal: {
+                                //这里是重点
+                                color:function(params){
+                                    var colorList = ['#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83', '#ca8622'];
+                                    return colorList[params.dataIndex % colorList.length];
+                                }
+                            }
+                        },
+                        emphasis: {
+                            itemStyle: {
+                                opacity: 1
+                            }
+                        },
+                        z: 10
+                    },
+                    {
+                        name: 'Questioner',
+                        type: 'pictorialBar',
+                        barGap: '-100%',
+                        symbolPosition: 'end',
+                        symbolSize: 6,
+                        symbolOffset: [0, 0],
+                        itemStyle: {
+                            normal: {
+                                //这里是重点
+                                color:function(params){
+                                    var colorList = ['#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83', '#ca8622'];
+                                    return colorList[params.dataIndex % colorList.length];
+                                }
+                            }
+                        },
+                        data: questionerscore
+                    }],
+                dataZoom: [{
+                    show: true,
+                    type:"slider",
+                    xAxisIndex:[0],
+                    start:0,
+                    end:50,
+                    zoomLock :true,
+                    filterMode:"empty",
+                    filterColor:"#2697FF",
+                    backgroundColor:'rgba(244,245,248,1)',
+                    showDetail:false,
+                    showDataShadow:false,
+                    width:"30%",
+                    bottom:13,
+                    left:"35%",
+                    borderColor:"rgb(23,231,231)",
+                    height:12,
+                    handleSize:'80%',
+                    handleStyle:{
+                        borderWidth:0,
+                        color:"#2697ff"
+                    }
+                }]
+
+            })
+        }
+    })
+
+    var answerernames=[],answererscore=[];
+    $.ajax({
+        type:"get",
+        url:"/stackinfo/answerer",
+        cache:false,
+        success:function (res) {
+            var data=res.data;
+            // console.log(data);
+            for(var i=0;i<61;i++){
+                answerernames.push(data[i].name);
+                answererscore.push(data[i].score);
+            }
+            answererChart.setOption({
+                xAxis:{
+                    data:answerernames,
+                    axisLabel: {
+                        interval:0,
+                        rotate:40
+                    }
+                },
+                yAxis:{
+                    type: 'value'
+                },
+                tooltip: {},
+                legend: {
+                    data:['Answerer']
+                },
+                series:[
+                    {
+                        name: 'Answerer',
+                        data:answererscore,
+                        // type:'bar'
+                        type: 'pictorialBar',
+                        barGap: '80%',
+                        barCategoryGap: '-70%',
+                        //symbol: 'path://M0,10 L10,10 L5,0 L0,10 z',
+                        symbol: 'path://M0,10 L10,10 C5.5,10 5.5,5 5,0 C4.5,5 4.5,10 0,10 z',
+                        itemStyle: {
+                            opacity: 0.5,
+                            normal: {
+                                //这里是重点
+                                color:function(params){
+                                    var colorList = ['#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83', '#ca8622'];
+                                    return colorList[params.dataIndex % colorList.length];
+                                }
+                            }
+                        },
+                        emphasis: {
+                            itemStyle: {
+                                opacity: 1
+                            }
+                        },
+                        z: 10
+                    },
+                    {
+                        name: 'Answerer',
+                        type: 'pictorialBar',
+                        barGap: '-100%',
+                        symbolPosition: 'end',
+                        symbolSize: 6,
+                        symbolOffset: [0, 0],
+                        itemStyle: {
+                            normal: {
+                                //这里是重点
+                                color:function(params){
+                                    var colorList = ['#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83', '#ca8622'];
+                                    return colorList[params.dataIndex % colorList.length];
+                                }
+                            }
+                        },
+                        data: answererscore
+                    }],
+                dataZoom: [{
+                    show: true,
+                    type:"slider",
+                    xAxisIndex:[0],
+                    start:0,
+                    end:50,
+                    zoomLock :true,
+                    filterMode:"empty",
+                    filterColor:"#2697FF",
+                    backgroundColor:'rgba(244,245,248,1)',
+                    showDetail:false,
+                    showDataShadow:false,
+                    width:"30%",
+                    bottom:13,
+                    left:"35%",
+                    borderColor:"rgb(23,231,231)",
+                    height:12,
+                    handleSize:'80%',
+                    handleStyle:{
+                        borderWidth:0,
+                        color:"#2697ff"
+                    }
+                }]
+
+            })
+        }
+    })
+    // 使用刚指定的配置项和数据显示图表。
+    window.onresize = questionerChart.resize;
+    window.onresize = answererChart.resize;
+
+    layui.use(['table','form'],function () {
+        var $ = layui.$;
+        var table = layui.table;
+        table.render({
+            elem: '#main-table',
+            height: 650,
+            url: '/stackinfo/answercnt',
+            method: 'POST',
+            page: false,
+            id: 'table-load',
+            toolbar: '#toolbarDemo',
+            cols: [
+                [
+                    {title: '序号',templet: '#indexTpl',width: 60,align:'center'},
+                    {field:'name',title:'Question',algin:'center',width:800},
+                    {field:'score',title:'AnswerCnt',algin:'center',width:100}
+                ]
+            ]
+        });
+    })
+
+    layui.use(['table','form'],function () {
+        var $ = layui.$;
+        var table = layui.table;
+        table.render({
+            elem: '#main-table2',
+            height: 650,
+            url: '/stackinfo/viewcnt',
+            method: 'POST',
+            page: false,
+            id: 'table-load',
+            toolbar: '#toolbarDemo',
+            cols: [
+                [
+                    {title: '序号',templet: '#indexTpl',width: 60,align:'center'},
+                    {field:'name',title:'Question',algin:'center',width:800},
+                    {field:'score',title:'ViewCnt',algin:'center',width:100}
+                ]
+            ]
+        });
+    })
+
+
+
+</script>
+</body>
+</html>

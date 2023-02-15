@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Topic</title>
+</head>
+<style type="text/css">
+    .title {
+        margin: 0;
+        text-align: center;
+        color: #454545;
+        font-style: italic;
+        font-size: 50px;
+    }
+    .subtitle {
+        margin: 0;
+        text-align: center;
+        color: rgb(160, 160, 160);
+        font-size: 20px;
+    }
+
+    .wordCloud__tagBall {
+        margin: 50px auto;
+        position: relative;
+    }
+
+    .wordCloud__tag {
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        color: green;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: '微软雅黑';
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .wordCloud__tag:hover {
+        color: red !important;
+    }
+
+    .wordCloud__home {
+        display: flex;
+        justify-content: center;
+    }
+
+</style>
+<body>
+<!-- 为 ECharts 准备一个定义了宽高的 DOM，必须定义宽高才可以显示 -->
+<h1 class="title" style="margin-top: 50px;">StackOverflow Questions' Total Topics</h1>
+<h2 class="subtitle">Search by "search?order=desc&sort=votes&tagged=java&site=stackoverflow", Sample num: 3446</h2>
+<div class="wordCloud__tagBall" style="width: 700px; height: 700px "></div>
+<div style="width: 100%;height: 600px;" id="jkjkjk"></div>
+<!--<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<script th:src="@{/static/echarts/echarts.js}"></script>
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>-->
+<script th:src="@{/static/jquery/jquery.js}"></script>
+
+
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('jkjkjk'));
+    // 指定图表的配置项和数据
+    var option = {
+        tooltip: {},
+        legend: {
+            data:['Frequency']
+        }
+    };
+    var names=[],values=[];
+    $.ajax({
+        type:"get",
+        url:"/stacktags/wordcloud",
+        cache:false,
+        success:function (res) {
+            var data=res.data;
+            for(var i=1;i<60;i++){
+                names.push(data[i].name);
+                values.push(data[i].value);
+            }
+            myChart.setOption({
+                xAxis:{
+                    data:names,
+                    axisLabel: {
+                        interval:0,
+                        rotate:40
+                    }
+                },
+                yAxis:{
+                    type: 'value'
+                },
+                series:[
+                    {
+                        name: 'Frequency',
+                        data:values,
+                        // type:'Bar'
+                        type: 'pictorialBar',
+                        barCategoryGap: '-70%',
+                        //symbol: 'path://M0,10 L10,10 L5,0 L0,10 z',
+                        symbol: 'path://M0,10 L10,10 C5.5,10 5.5,5 5,0 C4.5,5 4.5,10 0,10 z',
+                        itemStyle: {
+                            opacity: 0.5,
+                            normal: {
+                                //这里是重点
+                                color:function(params){
+                                    var colorList = ['#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83', '#ca8622'];
+                                    return colorList[params.dataIndex % colorList.length];
+                                }
+                            }
+                        },
+                        emphasis: {
+                            itemStyle: {
+                                opacity: 1
+                            }
+                        },
+                        z: 10
+                    },
+                    {
+                        name: 'Frequency',
+                        type: 'pictorialBar',
+                        barGap: '-100%',
+                        symbolPosition: 'end',
+                        symbolSize: 6,
+                        symbolOffset: [0, 0],
+                        itemStyle: {
+                            normal: {
+                                //这里是重点
+                                color:function(params){
+                                    var colorList = ['#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83', '#ca8622'];
+                                    return colorList[params.dataIndex % colorList.length];
+                                }
+                            }
+                        },
+                        data: values
+                    }
+                ],
+                dataZoom: [{
+                    show: true,
+                    type:"slider",
+                    xAxisIndex:[0],
+                    start:0,
+                    end:50,
+                    zoomLock :true,
+                    filterMode:"empty",
+                    filterColor:"#2697FF",
+                    backgroundColor:'rgba(244,245,248,1)',
+                    showDetail:false,
+                    showDataShadow:false,
+                    width:"30%",
+                    bottom:13,
+                    left:"35%",
+                    borderColor:"rgb(23,231,231)",
+                    height:12,
+                    handleSize:'80%',
+                    handleStyle:{
+                        borderWidth:0,
+                        color:"#2697ff"
+                    }
+                }]
+            })
+            ///////////////////////////////////////////////////////////////////
+            $(function () {
+                var myval
+                var width = 700
+                var height = 700
+                var contentEle = []
+                var data = names
+                var direction = '-1'
+                var speed = 3000
+                var color = ['#2D4DB6', '#04B67C', '#D1AF07', '#E27914', '#CB4A4D', '#B02690','#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83', '#ca8622']
+                function innit() {
+                    const RADIUSX = (width - 50) / 2
+                    const RADIUSY = (height - 50) / 2
+                    contentEle = []
+                    for (let i = 0; i < data.length; i += 1) {
+                        const k = -1 + (2 * (i + 1) - 1) / data.length
+                        const a = Math.acos(k)
+                        const b = a * Math.sqrt(data.length * Math.PI)
+                        const x = RADIUSX * Math.sin(a) * Math.cos(b)
+                        const y = RADIUSY * Math.sin(a) * Math.sin(b)
+                        const z = RADIUSX * Math.cos(a)
+                        const singleEle = {
+                            x,
+                            y,
+                            z,
+                            style: {},
+                        }
+                        contentEle.push(singleEle)
+                    }
+                    animate()
+                }
+                function animate() {
+                    rotateX()
+                    rotateY()
+                    move()
+                    window.requestAnimationFrame(animate)
+                }
+                function rotateX() {
+                    const angleX = ['-1', '1'].includes(direction)
+                        ? Math.PI / Infinity
+                        : Math.PI / ((Number(direction) / 2) * Number(speed))
+                    const cos = Math.cos(angleX)
+                    const sin = Math.sin(angleX)
+                    contentEle = contentEle.map((t) => {
+                        const y1 = t.y * cos - t.z * sin
+                        const z1 = t.z * cos + t.y * sin
+                        return {
+                            ...t,
+                            y: y1,
+                            z: z1,
+                        }
+                    })
+                }
+                function rotateY() {
+                    const angleY = ['-2', '2'].includes(direction)
+                        ? Math.PI / Infinity
+                        : Math.PI / (Number(direction) * Number(speed))
+                    const cos = Math.cos(angleY)
+                    const sin = Math.sin(angleY)
+                    contentEle = contentEle.map((t) => {
+                        const x1 = t.x * cos - t.z * sin
+                        const z1 = t.z * cos + t.x * sin
+                        return {
+                            ...t,
+                            x: x1,
+                            z: z1,
+                        }
+                    })
+                }
+                function move() {
+                    const CX = width / 2
+                    const CY = height / 2
+                    contentEle = contentEle.map((singleEle) => {
+                        const { x, y, z } = singleEle
+                        const fallLength = 500
+                        const RADIUS = (width - 50) / 2
+                        const scale = fallLength / (fallLength - z)
+                        const alpha = (z + RADIUS) / (2 * RADIUS)
+                        const left = `${x + CX - 15}px`
+                        const top = `${y + CY - 15}px`
+                        const transform = `translate(${left}, ${top}) scale(${scale})`
+                        const style = {
+                            ...singleEle.style,
+                            opacity: alpha + 0.5,
+                            zIndex: parseInt(scale * 100, 10),
+                            transform
+                        }
+                        return {
+                            x,
+                            y,
+                            z,
+                            style
+                        }
+                    })
+                }
+
+                function init() {
+                    var html_ = ''
+                    for (var i = 0; i < data.length; i++) {
+                        let color_ = color[i % color.length]
+                        html_ += '<span class="wordCloud__tag" style="color:' + color_ + ';opacity:' + contentEle[i].style.opacity + ';transform:' + contentEle[i].style.transform + ';zIndex:' + contentEle[i].style.zIndex + '">' + data[i] + '</span>'
+                    }
+                    $('.wordCloud__tagBall').html(html_)
+                }
+
+
+                innit()
+                myval = setInterval(() => {
+                    init()
+                }, 3)
+
+                $('.wordCloud__tagBall').on('mouseenter', function () {
+                    clearInterval(myval)
+                })
+                $('.wordCloud__tagBall').on('mouseleave', function () {
+                    myval = setInterval(() => {
+                        init()
+                    }, 10)
+                })
+            })
+        }
+    })
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+    window.onresize = myChart.resize;
+</script>
+
+
+</body>
+</html>

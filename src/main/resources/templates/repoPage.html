@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh_CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Repo Info</title>
+    <link rel="stylesheet" th:href="@{/static/layui/css/layui.css}" media="all">
+    <link rel="stylesheet" th:href="@{/static/admin/style.css}" media="all">
+</head>
+<style>
+    .layui-form-item {
+        line-height: 20px!important;
+        vertical-align: middle;
+        height: auto;
+        overflow: visible;
+        text-overflow: inherit;
+        white-space: normal;
+    }
+</style>
+<body>
+<style type="text/css">
+    .title {
+        margin: 0;
+        text-align: center;
+        color: #454545;
+        font-style: italic;
+        font-size: 30px;
+    }
+    .subtitle {
+        margin: 0;
+        text-align: center;
+        color: rgb(160, 160, 160);
+        font-size: 15px;
+    }
+</style>
+
+<h1 class="title" style="margin-top: 50px;">Github Repos Details</h1>
+<h2 class="subtitle">Search by "search/repositories?q=language:java&sort=stars", Sample num: 1694</h2>
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body" style="padding: 15px;">
+            <form class="layui-form layui-form-pane" action="">
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Question</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="count" th:value="${obj?.name}" lay-verify="required" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Questioner</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="count" th:value="${obj?.owner}" lay-verify="required" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Owner</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.owner}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">OwnerType </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="count" th:value="${obj?.ownerType}" lay-verify="required" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">CreatedAt</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.createdAt}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">star</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.star}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Forks</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.forks}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Description</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="operator" th:value="${obj?.description}" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-bg-cyan">Link</label>
+                    <span class="layui-btn layui-btn-sm layui-bg-blue" lay-event="querySave">
+                        <a th:href="${obj?.htmlUrl}" target="_blank">
+                                <i class="layui-icon">&#xe64c;</i>Link
+                        </a>
+                    </span>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

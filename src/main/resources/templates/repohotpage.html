@@ -1,0 +1,157 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/zh/editor.html?c=line-race
+-->
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" th:href="@{/static/layui/css/layui.css}" media="all">
+    <link rel="stylesheet" th:href="@{/static/admin/style.css}" media="all">
+    <style>
+        .layui-input-block{
+            width: 200px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+
+<body style="height: 100%; margin: 0">
+<style type="text/css">
+    .title {
+        margin: 0;
+        text-align: center;
+        color: #454545;
+        font-style: italic;
+        font-size: 30px;
+    }
+    .subtitle {
+        margin: 0;
+        text-align: center;
+        color: rgb(160, 160, 160);
+        font-size: 10px;
+    }
+</style>
+
+<h1 class="title" style="margin-top: 50px;">Github Repos Star Num Per Month</h1>
+<h2 class="subtitle">Search by "repos/{owner}/{repo}/stargazers",Using AccessToken&Authorization, Sample num: 12485</h2>
+
+<div class="layui-input-block">
+    <input type="text" id="name" th:value="${name}" lay-verify="required" autocomplete="off" class="layui-input">
+</div>
+<div id="container" style="height: 100%"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+<script type="text/javascript">
+    var name=$('#name').val();
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+        renderer: 'canvas',
+        useDirtyRect: false
+    });
+    var app = {};
+    var ROOT_PATH = 'http://localhost:8081/';
+    // var ROOT_PATH = 'https://fastly.jsdelivr.net/gh/apache/echarts-website@asf-site/examples';
+    var option;
+    var hh;
+
+    var tmp_countries;
+
+    $.get(
+        ROOT_PATH + 'githubrepo/goodrepo/list2?name='+name,
+        // ROOT_PATH + '/data/asset/data/life-expectancy-table.json',
+        function (_rawData) {
+            console.log("黄明朗");
+            // _rawData.data.shift();
+            console.log(_rawData.data);
+            run(_rawData.data);
+        }
+    );
+
+
+    function run(_rawData) {
+        // var countries = ['Australia', 'Canada', 'China', 'Cuba', 'Finland', 'France', 'Germany', 'Iceland', 'India', 'Japan', 'North Korea', 'South Korea', 'New Zealand', 'Norway', 'Poland', 'Russia', 'Turkey', 'United Kingdom', 'United States'];
+        const countries = [];
+        countries.push(name);
+        const datasetWithFilters = [];
+        const seriesList = [];
+        echarts.util.each(countries, function (country) {
+            var datasetId = 'dataset_' + country;
+            datasetWithFilters.push({
+                id: datasetId,
+                fromDatasetId: 'dataset_raw',
+                transform: {
+                    type: 'filter',
+                    config: {
+                        and: [
+                            { dimension: 'Year', gte: 5 },
+                            { dimension: 'Country', '=': country }
+                        ]
+                    }
+                }
+            });
+            seriesList.push({
+                type: 'line',
+                datasetId: datasetId,
+                showSymbol: false,
+                name: country,
+                endLabel: {
+                    show: true,
+                    formatter: function (params) {
+                        return params.value[1] + ': ' + params.value[0];
+                    }
+                },
+                labelLayout: {
+                    moveOverlap: 'shiftY'
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                encode: {
+                    x: 'Year',
+                    y: 'Income',
+                    label: ['Country', 'Income'],
+                    itemName: 'Year',
+                    tooltip: ['Income']
+                }
+            });
+        });
+        option = {
+            animationDuration: 10000,
+            dataset: [
+                {
+                    id: 'dataset_raw',
+                    source: _rawData
+                },
+                ...datasetWithFilters
+            ],
+            title: {
+                text: 'Star History of '+name
+            },
+            tooltip: {
+                order: 'valueDesc',
+                trigger: 'axis'
+            },
+            xAxis: {
+                type: 'category',
+                nameLocation: 'middle'
+            },
+            yAxis: {
+                name: 'Star Num'
+            },
+            grid: {
+                right: 140
+            },
+            series: seriesList
+        };
+        myChart.setOption(option);
+    }
+
+    if (option && typeof option === 'object') {
+        myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+</script>
+</body>
+</html>
