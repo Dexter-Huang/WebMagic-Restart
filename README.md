@@ -1,5 +1,5 @@
-2.	Github/Stackoverflow 网站数据可视化平台
-        该项目基于MVC架构模式进行实现。该项目通过Github，StackOverflow开放的相关API，实现每日定时爬取、更新数据, 并以可视化的方式展示相关爬取的数据如热门repo排行榜、不同语言(Java,Python等)领域内热门问题、热门回答、热门话题等，帮助不同领域开发人员了解相关行业发展趋势。
+Github/Stackoverflow 网站数据可视化平台
+该项目基于MVC架构模式进行实现。该项目通过Github，StackOverflow开放的相关API，实现每日定时爬取、更新数据, 并以可视化的方式展示相关爬取的数据如热门repo排行榜、不同语言(Java,Python等)领域内热门问题、热门回答、热门话题等，帮助不同领域开发人员了解相关行业发展趋势。
 
 主要技术栈：
       SpringBoot+Mybatisplus+WebMagic+Quartz+MySQL+LayUI(html/css)+Echarts
